@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="create product-composite api implementation">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35419919a3c01f7a4fa3725a25ed0fa5ade6c2d1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf741ea945e58b8c09d798c9ec879541cc3557f6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c051587fcbc2f445d6e459e1ef985d9153560261" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7efbf7ac48b715fca5be81277ed08682bba0db5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe5c43214168bd8de1d8afa275215a8e9b9de634" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add services">
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a4b962ca275cbf54e7da740d478a5768c623388" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af9e8360161674ae7ff6c25eb5c186fa715817eb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/ReviewServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +158,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/recommendation-service" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/review-service" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -262,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662981315181</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add services">
+      <created>1662993421841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662993421841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +273,7 @@
     <MESSAGE value="add recommendation and review classes" />
     <MESSAGE value="rename package" />
     <MESSAGE value="create product-composite api implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="create product-composite api implementation" />
+    <MESSAGE value="add services" />
+    <option name="LAST_COMMIT_MESSAGE" value="add services" />
   </component>
 </project>
