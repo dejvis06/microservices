@@ -7,12 +7,14 @@ import com.example.api.core.review.Review;
 import com.example.api.exceptions.NotFoundException;
 import com.example.util.http.ServiceUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
+@RequestMapping(value = "/products-composite")
 public class ProductCompositeServiceImpl implements ProductCompositeService {
 
     private final ServiceUtil serviceUtil;

@@ -93,6 +93,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java">
           <value>
             <set />
@@ -133,7 +138,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/review-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/review-service/src/main/java/com/example/review/ReviewServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java">
           <value>
             <set />
           </value>
@@ -144,6 +174,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/util/src/main/java/com/example/util/http/HttpErrorInfo.java">
           <value>
             <set />
           </value>

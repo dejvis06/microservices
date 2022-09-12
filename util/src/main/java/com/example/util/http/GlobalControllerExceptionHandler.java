@@ -19,31 +19,32 @@ class GlobalControllerExceptionHandler {
 
     private static final Logger LOG = LoggerFactory.getLogger(GlobalControllerExceptionHandler.class);
 
+    //TODO: ADD ServerHttpRequest as first param when using webflux and uncomment line in method createHttpErrorInfo
+
     @ResponseStatus(NOT_FOUND)
     @ExceptionHandler(NotFoundException.class)
     public @ResponseBody
     HttpErrorInfo handleNotFoundExceptions(
-            ServerHttpRequest request, NotFoundException ex) {
+            NotFoundException ex) {
 
-        return createHttpErrorInfo(NOT_FOUND, request, ex);
+        return createHttpErrorInfo(NOT_FOUND, null, ex);
     }
 
     @ResponseStatus(UNPROCESSABLE_ENTITY)
     @ExceptionHandler(InvalidInputException.class)
     public @ResponseBody
-    HttpErrorInfo handleInvalidInputException(
-            ServerHttpRequest request, InvalidInputException ex) {
+    HttpErrorInfo handleInvalidInputException(InvalidInputException ex) {
 
-        return createHttpErrorInfo(UNPROCESSABLE_ENTITY, request, ex);
+        return createHttpErrorInfo(UNPROCESSABLE_ENTITY, null, ex);
     }
 
     private HttpErrorInfo createHttpErrorInfo(
             HttpStatus httpStatus, ServerHttpRequest request, Exception ex) {
 
-        final String path = request.getPath().pathWithinApplication().value();
+        //final String path = request.getPath().pathWithinApplication().value();
         final String message = ex.getMessage();
 
-        LOG.debug("Returning HTTP status: {} for path: {}, message: {}", httpStatus, path, message);
-        return new HttpErrorInfo(httpStatus, path, message);
+        LOG.debug("Returning HTTP status: {} for path: {}, message: {}", httpStatus, null, message);
+        return new HttpErrorInfo(httpStatus, null, message);
     }
 }
