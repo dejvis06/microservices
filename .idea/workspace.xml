@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change naming of product-composite to plural">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/recommendation/Recommendation.java" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="rename package">
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07fdb9d6dcc92071c811ddf2957970946b50165a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662974763948</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add recommendation and review classes">
+      <created>1662975495681</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662975495681</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rename package">
+      <created>1662975738513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662975738513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +144,8 @@
     <MESSAGE value="add product composite package and classes to api module" />
     <MESSAGE value="add host and port of other services in config file of product-composite service" />
     <MESSAGE value="change naming of product-composite to plural" />
-    <option name="LAST_COMMIT_MESSAGE" value="change naming of product-composite to plural" />
+    <MESSAGE value="add recommendation and review classes" />
+    <MESSAGE value="rename package" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename package" />
   </component>
 </project>

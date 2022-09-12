@@ -1,8 +1,6 @@
 
 s
 Capi/src/main/java/com/example/api/exceptions/NotFoundException.java,a/f/af9e8360161674ae7ff6c25eb5c186fa715817eb
-Q
-!product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 F
 review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 N
@@ -17,10 +15,6 @@ Nutil/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 ;
 api/pom.xml,f/e/fe5c43214168bd8de1d8afa275215a8e9b9de634
-G
-product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
-k
-;api/src/main/java/com/example/api/core/product/Product.java,b/9/b9d0951aab6e8399ea0a1ebc406458242ca2d7d6
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

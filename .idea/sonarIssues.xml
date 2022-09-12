@@ -88,6 +88,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/api/core/product/services/ProductCompositeIntegration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml">
           <value>
             <set />

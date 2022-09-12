@@ -14,6 +14,17 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+		<!-- modules -->
+		<dependency>
+			<groupId>com.example.api</groupId>
+			<artifactId>api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.example.util</groupId>
+			<artifactId>util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>
