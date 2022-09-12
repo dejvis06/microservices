@@ -30,5 +30,9 @@ k
 Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplication.java,e/c/ec6475fc68e31afe91094d6177739688a81d8ad7
 i
 9.idea/libraries/Maven__com_example_api_0_0_1_SNAPSHOT.xml,d/7/d7efbf7ac48b715fca5be81277ed08682bba0db5
-r
-Bapi/src/main/java/com/example/api/core/product/ProductService.java,4/1/4173e811853f8a50ab0d18c333f5c463c501f490
+‹
+[product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
+~
+Napi/src/main/java/com/example/api/composite/product/RecommendationSummary.java,3/5/35419919a3c01f7a4fa3725a25ed0fa5ade6c2d1
+y
+Iapi/src/main/java/com/example/api/composite/product/ServiceAddresses.java,b/f/bf741ea945e58b8c09d798c9ec879541cc3557f6
