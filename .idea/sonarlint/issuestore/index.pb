@@ -56,3 +56,15 @@ F
 review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 }
 Mreview-service/src/main/java/com/example/review/ReviewServiceApplication.java,4/0/40992bc437585dec293972d1193eedd2a35d9838
+—
+grecommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java,f/3/f3b2e9d3cba069fc8f72a31133f0562555793687
+k
+;api/src/main/java/com/example/api/core/product/Product.java,b/9/b9d0951aab6e8399ea0a1ebc406458242ca2d7d6
+i
+9api/src/main/java/com/example/api/core/review/Review.java,9/e/9ebe2575196f3af394ee16f08112a7af7bc8a1d5
+y
+Iapi/src/main/java/com/example/api/core/recommendation/Recommendation.java,2/b/2be5316b663c3ddb090e598357bb2854df1e6f0b
+Ÿ
+oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
+Ÿ
+oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
