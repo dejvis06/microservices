@@ -42,8 +42,6 @@ N
 recommendation-service/pom.xml,9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f
 ~
 Nutil/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java,5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265
-€
-Papi/src/main/java/com/example/api/composite/product/ProductCompositeService.java,5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149
 
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 •
@@ -60,10 +58,6 @@ i
 9api/src/main/java/com/example/api/core/review/Review.java,9/e/9ebe2575196f3af394ee16f08112a7af7bc8a1d5
 y
 Iapi/src/main/java/com/example/api/core/recommendation/Recommendation.java,2/b/2be5316b663c3ddb090e598357bb2854df1e6f0b
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 J
 product-service/Dockerfile,5/a/5acdeee26f319910f4b78e31e20e10b81c2b9f1c
 T
