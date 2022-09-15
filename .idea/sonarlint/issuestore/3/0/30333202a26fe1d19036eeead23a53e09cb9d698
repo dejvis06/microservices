@@ -1,0 +1,9 @@
+
+j
+java:S11929"HDefine a constant instead of duplicating this literal "http://" 3 times.(Š«‰İøÿÿÿÿ8©ÖîŠ³0
+o
+java:S2259m"MA "NullPointerException" could be thrown; "recommendations" is nullable here.(Âõæëûÿÿÿÿ8ßŠ®Œ³0
+h
+java:S2259"EA "NullPointerException" could be thrown; "reviews" is nullable here.(©¤ïˆÿÿÿÿÿ8àŠ®Œ³0
+b
+java:S2259E"EA "NullPointerException" could be thrown; "product" is nullable here.(Ë©íÒ8ñ¢ôŠ³0
