@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add api documentation annotations">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/BadRequestException.java" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add exception and it's handler">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_147.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webflux_core_1_6_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webflux_ui_1_6_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_6_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_14_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07fdb9d6dcc92071c811ddf2957970946b50165a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c051587fcbc2f445d6e459e1ef985d9153560261" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe5c43214168bd8de1d8afa275215a8e9b9de634" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/example/ApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/test/java/com/example/util/UtilApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/test/java/com/example/api/core/product/ProductCompositeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/test/java/com/example/composite/product/ProductCompositeServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +70,9 @@
       <recent name="$PROJECT_DIR$/review-service" />
       <recent name="$PROJECT_DIR$/recommendation-service" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.composite.product" />
+    </key>
   </component>
   <component name="RunManager" selected="Maven.product-composite-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -72,7 +80,7 @@
       <module name="product-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.api.core.product.*" />
+          <option name="PATTERN" value="com.example.composite.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663235052471</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add exception and it's handler">
+      <created>1663237308315</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663237308316</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,6 +393,7 @@
     <MESSAGE value="add docker profile to other modules" />
     <MESSAGE value="add openapi and its configs" />
     <MESSAGE value="add api documentation annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add api documentation annotations" />
+    <MESSAGE value="add exception and it's handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exception and it's handler" />
   </component>
 </project>

@@ -34,8 +34,6 @@ p
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 •
 erecommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java,a/4/a4a2a03c0b8a45c5640d2bae4f8be59ddfc687fa
-F
-review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 }
 Mreview-service/src/main/java/com/example/review/ReviewServiceApplication.java,4/0/40992bc437585dec293972d1193eedd2a35d9838
 —

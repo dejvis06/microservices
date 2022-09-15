@@ -15,5 +15,10 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-common</artifactId>
+			<version>1.6.11</version>
+		</dependency>
 	</dependencies>
 </project>

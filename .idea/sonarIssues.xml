@@ -128,6 +128,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/test/java/com/example/api/core/product/ProductCompositeServiceApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/test/java/com/example/composite/product/ProductCompositeServiceApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/product-service/Dockerfile">
           <value>
             <set />

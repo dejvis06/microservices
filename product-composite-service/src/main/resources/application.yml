@@ -15,7 +15,7 @@ app:
 springdoc:
   swagger-ui.path: /openapi/swagger-ui.html
   api-docs.path: /openapi/v3/api-docs
-  packagesToScan: se.magnus.microservices.composite.product
+  packagesToScan: com.example
   pathsToMatch: /**
 
 api:
