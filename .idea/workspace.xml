@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add openapi and its configs">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30333202a26fe1d19036eeead23a53e09cb9d698" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b" beforeDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add api documentation annotations">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07fdb9d6dcc92071c811ddf2957970946b50165a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c051587fcbc2f445d6e459e1ef985d9153560261" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe5c43214168bd8de1d8afa275215a8e9b9de634" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/example/ApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/test/java/com/example/util/UtilApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663234807023</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add api documentation annotations">
+      <created>1663235052471</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663235052471</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +377,7 @@
     <MESSAGE value="add dockerfile to each module" />
     <MESSAGE value="add docker profile to other modules" />
     <MESSAGE value="add openapi and its configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add openapi and its configs" />
+    <MESSAGE value="add api documentation annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add api documentation annotations" />
   </component>
 </project>

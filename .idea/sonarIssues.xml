@@ -73,6 +73,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/BadRequestException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/api/src/test/java/com/example/ApiApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docker-compose.yml">
           <value>
             <set />

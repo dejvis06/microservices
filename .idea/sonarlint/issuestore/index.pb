@@ -1,13 +1,9 @@
 
 k
 ;.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml,e/3/e3631492191c257e535ea753f84db0f0f91375fd
-;
-api/pom.xml,f/e/fe5c43214168bd8de1d8afa275215a8e9b9de634
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-<
-util/pom.xml,c/0/c051587fcbc2f445d6e459e1ef985d9153560261
 i
 9.idea/libraries/Maven__com_example_api_0_0_1_SNAPSHOT.xml,d/7/d7efbf7ac48b715fca5be81277ed08682bba0db5
 ~
@@ -16,8 +12,6 @@ y
 Iapi/src/main/java/com/example/api/composite/product/ServiceAddresses.java,b/f/bf741ea945e58b8c09d798c9ec879541cc3557f6
 v
 Fapi/src/main/java/com/example/api/composite/product/ReviewSummary.java,9/5/95bdca0abfc19097b770c48a4f5bb28fe408ac08
-Q
-!product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 y
 Iapi/src/main/java/com/example/api/composite/product/ProductAggregate.java,b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a
 r
@@ -28,8 +22,6 @@ s
 Capi/src/main/java/com/example/api/exceptions/NotFoundException.java,a/f/af9e8360161674ae7ff6c25eb5c186fa715817eb
 ‹
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
-G
-product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
 i
 9util/src/main/java/com/example/util/http/ServiceUtil.java,9/0/90694f49b612b8e076110a69e7c4969ef0485951
 ‰
@@ -38,10 +30,6 @@ Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplic
 Papi/src/main/java/com/example/api/core/recommendation/RecommendationService.java,f/0/f04a526aeadda2363c5dd81c43d17e67bad6f034
 p
 @api/src/main/java/com/example/api/core/review/ReviewService.java,2/f/2fddb40df8730387922df3bc7b527c6d39184747
-N
-recommendation-service/pom.xml,9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f
-~
-Nutil/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java,5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265
 
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 •

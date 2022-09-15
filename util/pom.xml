@@ -18,7 +18,7 @@
 	<dependencies>
 		<!-- modules -->
 		<dependency>
-			<groupId>com.example</groupId>
+			<groupId>com.example.api</groupId>
 			<artifactId>api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
