@@ -168,6 +168,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java">
           <value>
             <set />
