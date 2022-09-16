@@ -20,10 +20,6 @@ Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplic
 erecommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java,a/4/a4a2a03c0b8a45c5640d2bae4f8be59ddfc687fa
 }
 Mreview-service/src/main/java/com/example/review/ReviewServiceApplication.java,4/0/40992bc437585dec293972d1193eedd2a35d9838
-i
-9api/src/main/java/com/example/api/core/review/Review.java,9/e/9ebe2575196f3af394ee16f08112a7af7bc8a1d5
-y
-Iapi/src/main/java/com/example/api/core/recommendation/Recommendation.java,2/b/2be5316b663c3ddb090e598357bb2854df1e6f0b
 J
 product-service/Dockerfile,5/a/5acdeee26f319910f4b78e31e20e10b81c2b9f1c
 T
