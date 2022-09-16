@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add service method implementations">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b" beforeDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add openapi description">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35419919a3c01f7a4fa3725a25ed0fa5ade6c2d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95bdca0abfc19097b770c48a4f5bb28fe408ac08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/RecommendationSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/RecommendationSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ReviewSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ReviewSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/recommendation/Recommendation.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/recommendation/Recommendation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663329741953</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add openapi description">
+      <created>1663332517312</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663332517312</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,7 +409,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="send request and receive response successfully" />
     <MESSAGE value="add product composite package and classes to api module" />
     <MESSAGE value="add host and port of other services in config file of product-composite service" />
     <MESSAGE value="change naming of product-composite to plural" />
@@ -420,6 +433,7 @@
     <MESSAGE value="add repositories" />
     <MESSAGE value="add other api's" />
     <MESSAGE value="add service method implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add service method implementations" />
+    <MESSAGE value="add openapi description" />
+    <option name="LAST_COMMIT_MESSAGE" value="add openapi description" />
   </component>
 </project>

@@ -1,8 +1,10 @@
 package com.example.api.core.recommendation;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class Recommendation {
 
     private int productId;

@@ -4,12 +4,8 @@ k
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-~
-Napi/src/main/java/com/example/api/composite/product/RecommendationSummary.java,3/5/35419919a3c01f7a4fa3725a25ed0fa5ade6c2d1
 y
 Iapi/src/main/java/com/example/api/composite/product/ServiceAddresses.java,b/f/bf741ea945e58b8c09d798c9ec879541cc3557f6
-v
-Fapi/src/main/java/com/example/api/composite/product/ReviewSummary.java,9/5/95bdca0abfc19097b770c48a4f5bb28fe408ac08
 s
 Capi/src/main/java/com/example/api/exceptions/NotFoundException.java,a/f/af9e8360161674ae7ff6c25eb5c186fa715817eb
 i
@@ -66,8 +62,6 @@ h
 M.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_11.xml,d/9/d910c7e8e77792b6f484f21114257fcfed8c0b6a
 Q
 !product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
-y
-Iapi/src/main/java/com/example/api/composite/product/ProductAggregate.java,b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a
 ~
 Nutil/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java,5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265
 k
