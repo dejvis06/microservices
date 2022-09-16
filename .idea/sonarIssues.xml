@@ -158,6 +158,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductController.java">
           <value>
             <set />
@@ -188,6 +193,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java">
           <value>
             <set />
@@ -204,6 +214,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/review-service/src/main/java/com/example/review/ReviewServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/review-service/src/main/java/com/example/review/persistence/ReviewEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/review-service/src/main/java/com/example/review/persistence/ReviewRepository.java">
           <value>
             <set />
           </value>
