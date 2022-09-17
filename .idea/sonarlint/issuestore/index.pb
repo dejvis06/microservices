@@ -144,8 +144,6 @@ F
 ]product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java,3/c/3ce146cb9f75f4989c8531eefb4333bb05f7c23f
 ™
 irecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationRepository.java,2/2/22da49a2f27af45b06aae5abdeee578d72755a53
-}
-Mreview-service/src/main/java/com/example/review/persistence/ReviewEntity.java,8/4/84efce2e8f903ca360e8a9252439d2553b7e95c9
 †
 Vproduct-service/src/main/java/com/example/api/core/product/services/ProductMapper.java,8/8/883b4aa2cab59d989a90c0be1770fa656de5ab49
 €
