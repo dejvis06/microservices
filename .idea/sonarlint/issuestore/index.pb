@@ -142,14 +142,8 @@ irecommendation-service/src/main/java/com/example/recommendation/persistence/Rec
 Papi/src/main/java/com/example/api/core/recommendation/RecommendationService.java,f/0/f04a526aeadda2363c5dd81c43d17e67bad6f034
 p
 @api/src/main/java/com/example/api/core/review/ReviewService.java,2/f/2fddb40df8730387922df3bc7b527c6d39184747
-—
-grecommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java,f/3/f3b2e9d3cba069fc8f72a31133f0562555793687
 r
 Bapi/src/main/java/com/example/api/core/product/ProductService.java,4/1/4173e811853f8a50ab0d18c333f5c463c501f490
-y
-Iapi/src/main/java/com/example/api/composite/product/ProductAggregate.java,b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
 v
 Fapi/src/main/java/com/example/api/composite/product/ReviewSummary.java,9/5/95bdca0abfc19097b770c48a4f5bb28fe408ac08
 ~

@@ -8,7 +8,7 @@ import javax.persistence.*;
 public class ReviewEntity {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Version
