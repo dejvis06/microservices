@@ -7,9 +7,12 @@ import com.example.review.persistence.ReviewEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
+import org.mapstruct.factory.Mappers;
 
 @Mapper
 public interface ReviewMapper {
+
+    ReviewMapper INSTANCE = Mappers.getMapper(ReviewMapper.class);
 
     @Mappings({
             @Mapping(target = "serviceAddress", ignore = true)

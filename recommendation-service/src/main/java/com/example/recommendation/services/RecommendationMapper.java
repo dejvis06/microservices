@@ -7,9 +7,12 @@ import com.example.recommendation.persistence.RecommendationEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
+import org.mapstruct.factory.Mappers;
 
 @Mapper
 public interface RecommendationMapper {
+
+    RecommendationMapper INSTANCE = Mappers.getMapper(RecommendationMapper.class);
 
     @Mappings({
             @Mapping(target = "rate", source = "entity.rating"),

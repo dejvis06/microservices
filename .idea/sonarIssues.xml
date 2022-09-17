@@ -183,6 +183,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/product-service/target/generated-sources/annotations/com/example/api/core/product/services/ProductMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/recommendation-service/pom.xml">
           <value>
             <set />

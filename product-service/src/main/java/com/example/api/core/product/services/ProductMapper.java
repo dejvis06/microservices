@@ -5,9 +5,12 @@ import com.example.api.core.product.persistence.ProductEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
+import org.mapstruct.factory.Mappers;
 
 @Mapper
 public interface ProductMapper {
+
+    ProductMapper INSTANCE = Mappers.getMapper(ProductMapper.class);
 
     @Mappings({
             @Mapping(target = "serviceAddress", ignore = true)

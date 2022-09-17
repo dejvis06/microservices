@@ -1,6 +1,5 @@
 package com.example.review.services;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.example.api.core.review.Review;
@@ -12,7 +11,6 @@ import com.example.util.http.ServiceUtil;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,9 +22,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class ReviewServiceImpl implements ReviewService {
 
     private static final Logger LOG = LoggerFactory.getLogger(ReviewServiceImpl.class);
+    private final ReviewMapper mapper = ReviewMapper.INSTANCE;
 
     private final ReviewRepository repository;
-    private final ReviewMapper mapper;
     private final ServiceUtil serviceUtil;
 
     @Override

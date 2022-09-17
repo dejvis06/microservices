@@ -21,11 +21,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class RecommendationServiceImpl implements RecommendationService {
 
     private static final Logger LOG = LoggerFactory.getLogger(RecommendationServiceImpl.class);
+    private final RecommendationMapper mapper = RecommendationMapper.INSTANCE;
 
     private final RecommendationRepository repository;
-    private final RecommendationMapper mapper;
     private final ServiceUtil serviceUtil;
-
 
     @Override
     public Recommendation createRecommendation(Recommendation body) {
