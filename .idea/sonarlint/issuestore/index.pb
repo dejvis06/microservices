@@ -14,8 +14,6 @@ i
 Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplication.java,e/c/ec6475fc68e31afe91094d6177739688a81d8ad7
 ï
 erecommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java,a/4/a4a2a03c0b8a45c5640d2bae4f8be59ddfc687fa
-}
-Mreview-service/src/main/java/com/example/review/ReviewServiceApplication.java,4/0/40992bc437585dec293972d1193eedd2a35d9838
 J
 product-service/Dockerfile,5/a/5acdeee26f319910f4b78e31e20e10b81c2b9f1c
 T
@@ -150,14 +148,10 @@ Vproduct-service/src/main/java/com/example/api/core/product/services/ProductMapp
 Papi/src/main/java/com/example/api/core/recommendation/RecommendationService.java,f/0/f04a526aeadda2363c5dd81c43d17e67bad6f034
 p
 @api/src/main/java/com/example/api/core/review/ReviewService.java,2/f/2fddb40df8730387922df3bc7b527c6d39184747
-ã
-[product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
 ï
 erecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java,9/f/9f68e2890caa647611ff429c87b0b703dfe16367
 ó
 grecommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java,f/3/f3b2e9d3cba069fc8f72a31133f0562555793687
-í
-brecommendation-service/src/main/java/com/example/recommendation/services/RecommendationMapper.java,4/a/4a00c168cfea112ad8cde604c47ed0b24aa07972
 z
 Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d/ad9f89cb0774d92df791a9ddcb114d730e0f63bc
 r
@@ -176,11 +170,7 @@ v
 Fapi/src/main/java/com/example/api/composite/product/ReviewSummary.java,9/5/95bdca0abfc19097b770c48a4f5bb28fe408ac08
 ~
 Napi/src/main/java/com/example/api/composite/product/RecommendationSummary.java,3/5/35419919a3c01f7a4fa3725a25ed0fa5ade6c2d1
-ü
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 Ä
 Papi/src/main/java/com/example/api/composite/product/ProductCompositeService.java,5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149
 Å
 Qreview-service/src/main/java/com/example/review/persistence/ReviewRepository.java,d/0/d0352ad2b4907ba172ce3ca06a45e42c960cf4ce
-
-Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
