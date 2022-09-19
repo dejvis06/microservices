@@ -1,11 +1,11 @@
 server.port: 7003
 
-spring.jpa.hibernate.ddl-auto: none
+spring.jpa.hibernate.ddl-auto: update
 
 spring.datasource:
   url: jdbc:mysql://localhost/review-db
   username: root
-  password: rootuser
+  password: rootpwd
 
 ---
 spring.config.activate.on-profile: docker
