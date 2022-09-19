@@ -55,8 +55,8 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
         this.mapper = mapper;
 
         productServiceUrl = "http://" + productServiceHost + ":" + productServicePort + "/products/";
-        recommendationServiceUrl = "http://" + recommendationServiceHost + ":" + recommendationServicePort + "/recommendations?productId=";
-        reviewServiceUrl = "http://" + reviewServiceHost + ":" + reviewServicePort + "/reviews?productId=";
+        recommendationServiceUrl = "http://" + recommendationServiceHost + ":" + recommendationServicePort + "/recommendations";
+        reviewServiceUrl = "http://" + reviewServiceHost + ":" + reviewServicePort + "/reviews";
     }
 
     @Override
@@ -133,7 +133,7 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     @Override
     public List<Recommendation> getRecommendations(int productId) {
         try {
-            String url = recommendationServiceUrl + productId;
+            String url = recommendationServiceUrl + "?productId=" + productId;
 
             LOG.debug("Will call getRecommendations API on URL: {}", url);
             List<Recommendation> recommendations = restTemplate
@@ -182,7 +182,7 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     @Override
     public List<Review> getReviews(int productId) {
         try {
-            String url = reviewServiceUrl + productId;
+            String url = reviewServiceUrl + "?productId=" + productId;
 
             LOG.debug("Will call getReviews API on URL: {}", url);
             List<Review> reviews = restTemplate

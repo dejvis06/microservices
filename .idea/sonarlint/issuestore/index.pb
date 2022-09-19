@@ -134,12 +134,6 @@ p
 @.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_6_1.xml,c/6/c699ea4f9caae02bf5e4ac6af05e8e4cf734939b
 ç
 ]product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java,3/c/3ce146cb9f75f4989c8531eefb4333bb05f7c23f
-ô
-irecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationRepository.java,2/2/22da49a2f27af45b06aae5abdeee578d72755a53
-Ä
-Papi/src/main/java/com/example/api/core/recommendation/RecommendationService.java,f/0/f04a526aeadda2363c5dd81c43d17e67bad6f034
-p
-@api/src/main/java/com/example/api/core/review/ReviewService.java,2/f/2fddb40df8730387922df3bc7b527c6d39184747
 r
 Bapi/src/main/java/com/example/api/core/product/ProductService.java,4/1/4173e811853f8a50ab0d18c333f5c463c501f490
 v
@@ -164,8 +158,6 @@ z
 Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d/ad9f89cb0774d92df791a9ddcb114d730e0f63bc
 â
 Yproduct-service/src/main/java/com/example/api/core/product/persistence/ProductEntity.java,a/c/aca3dcb822732e40ea7802a3eed07fa7e4d2303b
-ï
-erecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java,9/f/9f68e2890caa647611ff429c87b0b703dfe16367
 y
 Iapi/src/main/java/com/example/api/composite/product/ProductAggregate.java,b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a
 k
@@ -174,13 +166,9 @@ y
 Iapi/src/main/java/com/example/api/core/recommendation/Recommendation.java,2/b/2be5316b663c3ddb090e598357bb2854df1e6f0b
 i
 9api/src/main/java/com/example/api/core/review/Review.java,9/e/9ebe2575196f3af394ee16f08112a7af7bc8a1d5
-ó
-grecommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java,f/3/f3b2e9d3cba069fc8f72a31133f0562555793687
 }
 Mreview-service/src/main/java/com/example/review/persistence/ReviewEntity.java,8/4/84efce2e8f903ca360e8a9252439d2553b7e95c9
 
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 ã
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
-ü
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
