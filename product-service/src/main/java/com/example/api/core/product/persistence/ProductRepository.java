@@ -1,9 +1,8 @@
 package com.example.api.core.product.persistence;
 
-import java.util.Optional;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import reactor.core.publisher.Mono;
 
-import org.springframework.data.repository.PagingAndSortingRepository;
-
-public interface ProductRepository extends PagingAndSortingRepository<ProductEntity, String> {
-    Optional<ProductEntity> findByProductId(int productId);
+public interface ProductRepository extends ReactiveCrudRepository<ProductEntity, String> {
+    Mono<ProductEntity> findByProductId(int productId);
 }

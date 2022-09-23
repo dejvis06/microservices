@@ -10,11 +10,18 @@ import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.reactive.function.client.WebClientResponseException;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+import static java.util.logging.Level.FINE;
 
 @RestController
 @RequestMapping(value = "/products-composite")
@@ -27,22 +34,24 @@ public class ProductCompositeServiceImpl implements ProductCompositeService {
     private final ProductCompositeIntegration integration;
 
     @Override
-    public ProductAggregate getProduct(int productId) {
-        Product product = integration.getProduct(productId);
-        if (product == null) {
-            throw new NotFoundException("No product found for productId: " + productId);
-        }
+    public Mono<ProductAggregate> getProduct(int productId) {
+        LOG.info("Will get composite product info for product.id={}", productId);
 
-        List<Recommendation> recommendations = integration.getRecommendations(productId);
-
-        List<Review> reviews = integration.getReviews(productId);
-
-        return createProductAggregate(product, recommendations, reviews, serviceUtil.getServiceAddress());
+        return Mono.zip(
+                values -> createProductAggregate(
+                        (Product) values[0],
+                        (List<Recommendation>) values[1],
+                        null,
+                        serviceUtil.getServiceAddress()),
+                integration.getProduct(productId),
+                integration.getRecommendations(productId).collectList())
+                .doOnError(ex -> LOG.warn("getCompositeProduct failed: {}", ex.toString()))
+                .log(LOG.getName(), FINE);
     }
 
     @Override
-    public void createProduct(ProductAggregate productAggregate) {
-        try {
+    public Mono<Void> createProduct(ProductAggregate productAggregate) {
+        /*try {
             Product product = new Product(productAggregate.getProductId(), productAggregate.getName(), productAggregate.getWeight(), null);
             integration.createProduct(product);
             if (productAggregate.getRecommendations() != null) {
@@ -61,14 +70,16 @@ public class ProductCompositeServiceImpl implements ProductCompositeService {
         } catch (RuntimeException re) {
             LOG.warn("createCompositeProduct failed", re);
             throw re;
-        }
+        }*/
+        return null;
     }
 
     @Override
-    public void deleteProduct(int productId) {
-        integration.deleteProduct(productId);
+    public Mono<Void> deleteProduct(int productId) {
+        /*integration.deleteProduct(productId);
         integration.deleteRecommendations(productId);
-        integration.deleteReviews(productId);
+        integration.deleteReviews(productId);*/
+        return null;
     }
 
     private ProductAggregate createProductAggregate(
