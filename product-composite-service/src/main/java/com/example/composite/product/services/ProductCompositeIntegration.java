@@ -9,19 +9,13 @@ import com.example.api.core.review.ReviewService;
 import com.example.api.exceptions.InvalidInputException;
 import com.example.api.exceptions.NotFoundException;
 import com.example.util.http.HttpErrorInfo;
-import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
 import static java.util.logging.Level.FINE;
-import static org.springframework.http.HttpMethod.GET;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.logging.Level;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -97,6 +91,50 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
         return null;
     }
 
+    @Override
+    public Flux<Recommendation> getRecommendations(int productId) {
+
+        String url = recommendationServiceUrl + "?productId=" + productId;
+        return webClient.get()
+                .uri(url)
+                .retrieve()
+                .bodyToFlux(Recommendation.class)
+                .log(LOG.getName(), FINE)
+                .onErrorMap(WebClientResponseException.class, this::handleException);
+    }
+
+    @Override
+    public Mono<Recommendation> createRecommendation(Recommendation recommendation) {
+        return null;
+    }
+
+    @Override
+    public Mono<Void> deleteRecommendations(int productId) {
+        return null;
+    }
+
+    @Override
+    public Flux<Review> getReviews(int productId) {
+
+        String url = reviewServiceUrl + "?productId=" + productId;
+        return webClient.get()
+                .uri(url)
+                .retrieve()
+                .bodyToFlux(Review.class)
+                .log(LOG.getName(), FINE)
+                .onErrorMap(WebClientResponseException.class, this::handleException);
+    }
+
+    @Override
+    public Mono<Review> createReview(Review review) {
+        return null;
+    }
+
+    @Override
+    public Mono<Void> deleteReviews(int productId) {
+        return null;
+    }
+
     private Throwable handleException(Throwable ex) {
 
         if (!(ex instanceof WebClientResponseException)) {
@@ -127,99 +165,5 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
         } catch (IOException ioex) {
             return ex.getMessage();
         }
-    }
-
-    @Override
-    public Flux<Recommendation> getRecommendations(int productId) {
-
-        String url = recommendationServiceUrl + "?productId=" + productId;
-        return webClient.get()
-                .uri(url)
-                .retrieve()
-                .bodyToFlux(Recommendation.class)
-                .log(LOG.getName(), FINE)
-                .onErrorMap(WebClientResponseException.class, this::handleException);
-    }
-
-    @Override
-    public Mono<Recommendation> createRecommendation(Recommendation recommendation) {
-      /*  try {
-            String url = recommendationServiceUrl;
-            LOG.debug("Will post a new recommendation to URL: {}", url);
-
-            Recommendation recommendation1 = restTemplate.postForObject(url, recommendation, Recommendation.class);
-            LOG.debug("Created a recommendation with id: {}", recommendation1.getProductId());
-
-            return recommendation1;
-
-        } catch (HttpClientErrorException ex) {
-            throw handleHttpClientException(ex);
-        }*/
-        return null;
-    }
-
-    @Override
-    public Mono<Void> deleteRecommendations(int productId) {
-       /* try {
-            String url = recommendationServiceUrl + "?productId=" + productId;
-            LOG.debug("Will call the deleteRecommendations API on URL: {}", url);
-
-            restTemplate.delete(url);
-
-        } catch (HttpClientErrorException ex) {
-            throw handleHttpClientException(ex);
-        }*/
-        return null;
-    }
-
-    @Override
-    public List<Review> getReviews(int productId) {
-        /*try {
-            String url = reviewServiceUrl + "?productId=" + productId;
-
-            LOG.debug("Will call getReviews API on URL: {}", url);
-            List<Review> reviews = restTemplate
-                    .exchange(url, GET, null, new ParameterizedTypeReference<List<Review>>() {
-                    })
-                    .getBody();
-
-            LOG.debug("Found {} reviews for a product with id: {}", reviews.size(), productId);
-            return reviews;
-
-        } catch (Exception ex) {
-            LOG.warn("Got an exception while requesting reviews, return zero reviews: {}", ex.getMessage());
-            return new ArrayList<>();
-        }*/
-        return null;
-    }
-
-    @Override
-    public Review createReview(Review review) {
-       /* try {
-            String url = reviewServiceUrl;
-            LOG.debug("Will post a new review to URL: {}", url);
-
-            Review review1 = restTemplate.postForObject(url, review, Review.class);
-            LOG.debug("Created a review with id: {}", review1.getProductId());
-
-            return review1;
-
-        } catch (HttpClientErrorException ex) {
-            throw handleHttpClientException(ex);
-        }*/
-        return null;
-    }
-
-    @Override
-    public void deleteReviews(int productId) {
-       /* try {
-            String url = reviewServiceUrl + "?productId=" + productId;
-            LOG.debug("Will call the deleteReviews API on URL: {}", url);
-
-            restTemplate.delete(url);
-
-        } catch (HttpClientErrorException ex) {
-            throw handleHttpClientException(ex);
-        }*/
     }
 }

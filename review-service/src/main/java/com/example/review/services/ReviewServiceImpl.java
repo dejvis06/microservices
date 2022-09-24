@@ -1,19 +1,21 @@
 package com.example.review.services;
 
-import java.util.List;
-
 import com.example.api.core.review.Review;
 import com.example.api.core.review.ReviewService;
 import com.example.api.exceptions.InvalidInputException;
-import com.example.review.persistence.ReviewEntity;
+import com.example.api.exceptions.NotFoundException;
 import com.example.review.persistence.ReviewRepository;
 import com.example.util.http.ServiceUtil;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+import static java.util.logging.Level.FINE;
 
 
 @RestController
@@ -28,34 +30,33 @@ public class ReviewServiceImpl implements ReviewService {
     private final ServiceUtil serviceUtil;
 
     @Override
-    public Review createReview(Review body) {
-        try {
-            ReviewEntity entity = mapper.dtoToEntity(body);
-            ReviewEntity newEntity = repository.save(entity);
+    public Mono<Review> createReview(Review body) {
 
-            LOG.debug("createReview: created a review entity: {}/{}", body.getProductId(), body.getReviewId());
-            return mapper.entityToDto(newEntity);
-
-        } catch (DataIntegrityViolationException dive) {
-            throw new InvalidInputException("Duplicate key, Product Id: " + body.getProductId() + ", Review Id:" + body.getReviewId());
-        }
+        return repository.save(mapper.dtoToEntity(body))
+                .onErrorMap(
+                        DuplicateKeyException.class,
+                        ex -> new InvalidInputException("Duplicate key, Product Id: " + body.getProductId()))
+                .log(LOG.getName(), FINE)
+                .map(mapper::entityToDto);
     }
 
     @Override
-    public List<Review> getReviews(int productId) {
+    public Flux<Review> getReviews(int productId) {
 
-        List<ReviewEntity> entityList = repository.findByProductId(productId);
-        List<Review> list = mapper.entityListToDtoList(entityList);
-        list.forEach(e -> e.setServiceAddress(serviceUtil.getServiceAddress()));
+        return repository.findByProductId(productId)
+                .switchIfEmpty(Mono.error(new NotFoundException("No reviews found for productId: " + productId)))
+                .map(mapper::entityToDto)
+                .map(this::setServiceAddress);
+    }
 
-        LOG.debug("getReviews: response size: {}", list.size());
-
-        return list;
+    private Review setServiceAddress(Review review) {
+        review.setServiceAddress(serviceUtil.getServiceAddress());
+        return review;
     }
 
     @Override
-    public void deleteReviews(int productId) {
+    public Mono<Void> deleteReviews(int productId) {
         LOG.debug("deleteReviews: tries to delete reviews for the product with productId: {}", productId);
-        repository.deleteAll(repository.findByProductId(productId));
+        return repository.deleteAll(repository.findByProductId(productId));
     }
 }
