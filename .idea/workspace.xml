@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="remove condition">
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add reviews to ProductAggregate mono">
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -544,7 +544,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664106542855</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="operate on arrays through streams">
+      <created>1664106762956</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1664106762956</updated>
+    </task>
+    <task id="LOCAL-00047" summary="remove unused import">
+      <created>1664106795450</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1664106795450</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add reviews to ProductAggregate mono">
+      <created>1664107019345</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1664107019345</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -560,9 +581,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="successfully open openapi" />
-    <MESSAGE value="add entities" />
-    <MESSAGE value="add repositories" />
     <MESSAGE value="add other api's" />
     <MESSAGE value="add service method implementations" />
     <MESSAGE value="add openapi description" />
@@ -585,7 +603,10 @@
     <MESSAGE value="change database root user password" />
     <MESSAGE value="add reactive streaming through reactor.scheduler in relational db" />
     <MESSAGE value="remove condition" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove condition" />
+    <MESSAGE value="operate on arrays through streams" />
+    <MESSAGE value="remove unused import" />
+    <MESSAGE value="add reviews to ProductAggregate mono" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reviews to ProductAggregate mono" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

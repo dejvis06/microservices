@@ -117,14 +117,13 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     @Override
     public Flux<Review> getReviews(int productId) {
 
-      /*  String url = reviewServiceUrl + "?productId=" + productId;
+        String url = reviewServiceUrl + "?productId=" + productId;
         return webClient.get()
                 .uri(url)
                 .retrieve()
                 .bodyToFlux(Review.class)
                 .log(LOG.getName(), FINE)
-                .onErrorMap(WebClientResponseException.class, this::handleException);*/
-        return null;
+                .onErrorMap(WebClientResponseException.class, this::handleException);
     }
 
     @Override
