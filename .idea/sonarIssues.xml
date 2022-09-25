@@ -258,6 +258,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/review-service/src/test/java/com/example/review/ReviewServiceApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/util/pom.xml">
           <value>
             <set />
