@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change database root user password">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/ReviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="remove condition">
       <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -534,7 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664106114008</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add reactive streaming through reactor.scheduler in relational db">
+      <created>1664106409415</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1664106409415</updated>
+    </task>
+    <task id="LOCAL-00045" summary="remove condition">
+      <created>1664106542854</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1664106542855</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,8 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add api documentation annotations" />
-    <MESSAGE value="add exception and it's handler" />
     <MESSAGE value="successfully open openapi" />
     <MESSAGE value="add entities" />
     <MESSAGE value="add repositories" />
@@ -575,7 +583,9 @@
     <MESSAGE value="remove reactive streaming from review-service" />
     <MESSAGE value="add scheduler to main class" />
     <MESSAGE value="change database root user password" />
-    <option name="LAST_COMMIT_MESSAGE" value="change database root user password" />
+    <MESSAGE value="add reactive streaming through reactor.scheduler in relational db" />
+    <MESSAGE value="remove condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove condition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

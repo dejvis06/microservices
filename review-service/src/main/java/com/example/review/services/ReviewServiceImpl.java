@@ -2,6 +2,7 @@ package com.example.review.services;
 
 import java.util.List;
 import java.util.logging.Level;
+import java.util.stream.Collectors;
 
 import com.example.api.core.review.Review;
 import com.example.api.core.review.ReviewService;
@@ -40,8 +41,8 @@ public class ReviewServiceImpl implements ReviewService {
 
     private Review internalCreateReview(Review body) {
         try {
-            ReviewEntity entity = mapper.dtoToEntity(body);
-            ReviewEntity newEntity = repository.save(entity);
+
+            ReviewEntity newEntity = repository.save(mapper.dtoToEntity(body));
 
             LOG.debug("createReview: created a review entity: {}/{}", body.getProductId(), body.getReviewId());
             return mapper.entityToDto(newEntity);
@@ -64,13 +65,19 @@ public class ReviewServiceImpl implements ReviewService {
 
     private List<Review> internalGetReviews(int productId) {
 
-        List<ReviewEntity> entityList = repository.findByProductId(productId);
-        List<Review> list = mapper.entityListToDtoList(entityList);
-        list.forEach(e -> e.setServiceAddress(serviceUtil.getServiceAddress()));
+        List<Review> reviews = repository.findByProductId(productId)
+                .stream().map(mapper::entityToDto)
+                .map(this::setServiceAddress)
+                .collect(Collectors.toList());
 
-        LOG.debug("Response size: {}", list.size());
+        LOG.debug("Response size: {}", reviews.size());
 
-        return list;
+        return reviews;
+    }
+
+    private Review setServiceAddress(Review review) {
+        review.setServiceAddress(serviceUtil.getServiceAddress());
+        return review;
     }
 
     @Override
