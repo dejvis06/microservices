@@ -5,7 +5,7 @@ spring.jpa.hibernate.ddl-auto: update
 spring.datasource:
   url: jdbc:mysql://localhost/review-db
   username: root
-  password: rootpwd
+  password: rootuser
 
 #spring.r2dbc:
 #  url: r2dbc:mysql://localhost/review-db

@@ -223,6 +223,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/recommendation-service/src/test/java/com/example/recommendation/RecommendationServiceApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/review-service/pom.xml">
           <value>
             <set />
