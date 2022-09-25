@@ -74,16 +74,12 @@ v
 Fapi/src/main/java/com/example/api/composite/product/ReviewSummary.java,9/5/95bdca0abfc19097b770c48a4f5bb28fe408ac08
 ~
 Napi/src/main/java/com/example/api/composite/product/RecommendationSummary.java,3/5/35419919a3c01f7a4fa3725a25ed0fa5ade6c2d1
-}
-Mreview-service/src/main/java/com/example/review/ReviewServiceApplication.java,4/0/40992bc437585dec293972d1193eedd2a35d9838
 í
 brecommendation-service/src/main/java/com/example/recommendation/services/RecommendationMapper.java,4/a/4a00c168cfea112ad8cde604c47ed0b24aa07972
 z
 Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d/ad9f89cb0774d92df791a9ddcb114d730e0f63bc
 i
 9api/src/main/java/com/example/api/core/review/Review.java,9/e/9ebe2575196f3af394ee16f08112a7af7bc8a1d5
-}
-Mreview-service/src/main/java/com/example/review/persistence/ReviewEntity.java,8/4/84efce2e8f903ca360e8a9252439d2553b7e95c9
 ï
 erecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java,9/f/9f68e2890caa647611ff429c87b0b703dfe16367
 I
@@ -124,16 +120,12 @@ K.idea/libraries/Maven__org_mongodb_mongodb_driver_reactivestreams_4_6_1.xml,e/
 c.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_reactive_2_7_2.xml,9/4/94e548ccee4363cd86c8f11945f1b6dc40b1a177
 ~
 Nutil/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java,5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265
-ó
-grecommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java,f/3/f3b2e9d3cba069fc8f72a31133f0562555793687
 ã
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
 ç
 ]product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java,3/c/3ce146cb9f75f4989c8531eefb4333bb05f7c23f
 ô
 irecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationRepository.java,2/2/22da49a2f27af45b06aae5abdeee578d72755a53
-Å
-Qreview-service/src/main/java/com/example/review/persistence/ReviewRepository.java,d/0/d0352ad2b4907ba172ce3ca06a45e42c960cf4ce
 k
 ;.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml,5/f/5fbe0020a09bbbf977802456f8263b7cc4dca685
 ç
@@ -152,8 +144,6 @@ k
 ;.idea/libraries/Maven__io_r2dbc_r2dbc_spi_0_9_1_RELEASE.xml,f/0/f067300c89ef7efbf2331b5f1ae45de109c5cbac
 Ç
 R.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_brave_1_0_22.xml,e/c/ecc78a3eb3c73084246a5899f5ac78679220c71a
-p
-@api/src/main/java/com/example/api/core/review/ReviewService.java,2/f/2fddb40df8730387922df3bc7b527c6d39184747
 }
 M.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_13_10.xml,7/0/7025eff8780d18d94f8450e691552d7489c0f27d
 h
@@ -164,13 +154,7 @@ u
 E.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_16_3.xml,8/a/8a5fb2c431510912c0b970448aafd7b1be04b711
 j
 :.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_23_2.xml,9/2/9218e18b8c8348d70cc354724021f1681f97ab94
-ü
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
-ü
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 y
 Iapi/src/main/java/com/example/api/composite/product/ProductAggregate.java,b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a
-
-Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 N
 recommendation-service/pom.xml,9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f

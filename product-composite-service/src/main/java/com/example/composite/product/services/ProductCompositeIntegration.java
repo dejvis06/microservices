@@ -16,6 +16,7 @@ import static java.util.logging.Level.FINE;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -114,25 +115,25 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     }
 
     @Override
-    public Flux<Review> getReviews(int productId) {
+    public List<Review> getReviews(int productId) {
 
-        String url = reviewServiceUrl + "?productId=" + productId;
+      /*  String url = reviewServiceUrl + "?productId=" + productId;
         return webClient.get()
                 .uri(url)
                 .retrieve()
                 .bodyToFlux(Review.class)
                 .log(LOG.getName(), FINE)
-                .onErrorMap(WebClientResponseException.class, this::handleException);
-    }
-
-    @Override
-    public Mono<Review> createReview(Review review) {
+                .onErrorMap(WebClientResponseException.class, this::handleException);*/
         return null;
     }
 
     @Override
-    public Mono<Void> deleteReviews(int productId) {
+    public Review createReview(Review review) {
         return null;
+    }
+
+    @Override
+    public void deleteReviews(int productId) {
     }
 
     private Throwable handleException(Throwable ex) {
