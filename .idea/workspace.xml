@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add scheduler to main class">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change database root user password">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -524,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664103978308</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="change database root user password">
+      <created>1664106114008</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1664106114008</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +550,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add openapi and its configs" />
     <MESSAGE value="add api documentation annotations" />
     <MESSAGE value="add exception and it's handler" />
     <MESSAGE value="successfully open openapi" />
@@ -565,7 +574,8 @@
     <MESSAGE value="fix initialization error" />
     <MESSAGE value="remove reactive streaming from review-service" />
     <MESSAGE value="add scheduler to main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scheduler to main class" />
+    <MESSAGE value="change database root user password" />
+    <option name="LAST_COMMIT_MESSAGE" value="change database root user password" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

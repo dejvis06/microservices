@@ -1,7 +1,7 @@
 package com.example.review.services;
 
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.logging.Level;
 
 import com.example.api.core.review.Review;
 import com.example.api.core.review.ReviewService;
@@ -15,7 +15,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Scheduler;
 
 @RestController
 @RequestMapping(value = "/reviews")
@@ -27,9 +29,19 @@ public class ReviewServiceImpl implements ReviewService {
 
     private final ReviewRepository repository;
     private final ServiceUtil serviceUtil;
+    private final Scheduler jdbcScheduler;
 
     @Override
-    public Review createReview(Review body) {
+    public Mono<Review> createReview(Review body) {
+
+        if (body.getProductId() < 1) {
+            throw new InvalidInputException("Invalid productId: " + body.getProductId());
+        }
+        return Mono.fromCallable(() -> internalCreateReview(body))
+                .subscribeOn(jdbcScheduler);
+    }
+
+    private Review internalCreateReview(Review body) {
         try {
             ReviewEntity entity = mapper.dtoToEntity(body);
             ReviewEntity newEntity = repository.save(entity);
@@ -43,24 +55,43 @@ public class ReviewServiceImpl implements ReviewService {
     }
 
     @Override
-    public List<Review> getReviews(int productId) {
+    public Flux<Review> getReviews(int productId) {
 
-        List<Review> reviews = repository.findByProductId(productId).stream()
-                .map(mapper::entityToDto)
-                .map(this::setServiceAddress)
-                .collect(Collectors.toList());
+        if (productId < 1) {
+            throw new InvalidInputException("Invalid productId: " + productId);
+        }
 
-        LOG.debug("getReviews: response size: {}", reviews.size());
-        return reviews;
+        LOG.info("Will get reviews for product with id={}", productId);
+
+        return Mono.fromCallable(() -> internalGetReviews(productId))
+                .flatMapMany(Flux::fromIterable)
+                .log(LOG.getName(), Level.FINE)
+                .subscribeOn(jdbcScheduler);
     }
 
-    private Review setServiceAddress(Review e) {
-        e.setServiceAddress(serviceUtil.getServiceAddress());
-        return e;
+    private List<Review> internalGetReviews(int productId) {
+
+        List<ReviewEntity> entityList = repository.findByProductId(productId);
+        List<Review> list = mapper.entityListToDtoList(entityList);
+        list.forEach(e -> e.setServiceAddress(serviceUtil.getServiceAddress()));
+
+        LOG.debug("Response size: {}", list.size());
+
+        return list;
     }
 
     @Override
-    public void deleteReviews(int productId) {
+    public Mono<Void> deleteReviews(int productId) {
+
+        if (productId < 1) {
+            throw new InvalidInputException("Invalid productId: " + productId);
+        }
+
+        return Mono.fromRunnable(() -> internalDeleteReviews(productId)).subscribeOn(jdbcScheduler).then();
+    }
+
+    private void internalDeleteReviews(int productId) {
+
         LOG.debug("deleteReviews: tries to delete reviews for the product with productId: {}", productId);
         repository.deleteAll(repository.findByProductId(productId));
     }

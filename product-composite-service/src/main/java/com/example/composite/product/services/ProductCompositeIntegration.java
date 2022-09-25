@@ -115,7 +115,7 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     }
 
     @Override
-    public List<Review> getReviews(int productId) {
+    public Flux<Review> getReviews(int productId) {
 
       /*  String url = reviewServiceUrl + "?productId=" + productId;
         return webClient.get()
@@ -128,12 +128,13 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     }
 
     @Override
-    public Review createReview(Review review) {
+    public Mono<Review> createReview(Review review) {
         return null;
     }
 
     @Override
-    public void deleteReviews(int productId) {
+    public Mono<Void> deleteReviews(int productId) {
+        return null;
     }
 
     private Throwable handleException(Throwable ex) {

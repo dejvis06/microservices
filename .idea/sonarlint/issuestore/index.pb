@@ -84,8 +84,6 @@ i
 erecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java,9/f/9f68e2890caa647611ff429c87b0b703dfe16367
 I
 review-service/Dockerfile,e/2/e233ff16badd50d105bfdcd970c5841ea910bcf1
-B
-docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
 i
 9util/src/main/java/com/example/util/http/ServiceUtil.java,9/0/90694f49b612b8e076110a69e7c4969ef0485951
 †
