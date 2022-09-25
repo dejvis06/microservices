@@ -41,10 +41,11 @@ public class ProductCompositeServiceImpl implements ProductCompositeService {
                 values -> createProductAggregate(
                         (Product) values[0],
                         (List<Recommendation>) values[1],
-                        null,
+                        (List<Review>) values[2],
                         serviceUtil.getServiceAddress()),
                 integration.getProduct(productId),
-                integration.getRecommendations(productId).collectList())
+                integration.getRecommendations(productId).collectList(),
+                integration.getReviews(productId).collectList())
                 .doOnError(ex -> LOG.warn("getCompositeProduct failed: {}", ex.toString()))
                 .log(LOG.getName(), FINE);
     }
