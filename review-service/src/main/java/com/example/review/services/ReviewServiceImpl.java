@@ -34,9 +34,6 @@ public class ReviewServiceImpl implements ReviewService {
     @Override
     public Mono<Review> createReview(Review body) {
 
-        if (body.getProductId() < 1) {
-            throw new InvalidInputException("Invalid productId: " + body.getProductId());
-        }
         return Mono.fromCallable(() -> internalCreateReview(body))
                 .subscribeOn(jdbcScheduler);
     }
@@ -56,10 +53,6 @@ public class ReviewServiceImpl implements ReviewService {
 
     @Override
     public Flux<Review> getReviews(int productId) {
-
-        if (productId < 1) {
-            throw new InvalidInputException("Invalid productId: " + productId);
-        }
 
         LOG.info("Will get reviews for product with id={}", productId);
 
@@ -82,10 +75,6 @@ public class ReviewServiceImpl implements ReviewService {
 
     @Override
     public Mono<Void> deleteReviews(int productId) {
-
-        if (productId < 1) {
-            throw new InvalidInputException("Invalid productId: " + productId);
-        }
 
         return Mono.fromRunnable(() -> internalDeleteReviews(productId)).subscribeOn(jdbcScheduler).then();
     }
