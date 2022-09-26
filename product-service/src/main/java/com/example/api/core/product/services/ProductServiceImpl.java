@@ -2,7 +2,6 @@ package com.example.api.core.product.services;
 
 import com.example.api.core.product.Product;
 import com.example.api.core.product.ProductService;
-import com.example.api.core.product.persistence.ProductEntity;
 import com.example.api.core.product.persistence.ProductRepository;
 import com.example.api.exceptions.InvalidInputException;
 import com.example.api.exceptions.NotFoundException;
@@ -10,13 +9,10 @@ import com.example.util.http.ServiceUtil;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
-
-import java.util.logging.Level;
 
 import static java.util.logging.Level.FINE;
 

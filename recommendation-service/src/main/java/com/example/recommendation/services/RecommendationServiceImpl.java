@@ -1,14 +1,8 @@
 package com.example.recommendation.services;
 
-import java.time.Duration;
-import java.util.List;
-import java.util.logging.Level;
-
 import com.example.api.core.recommendation.Recommendation;
 import com.example.api.core.recommendation.RecommendationService;
 import com.example.api.exceptions.InvalidInputException;
-import com.example.api.exceptions.NotFoundException;
-import com.example.recommendation.persistence.RecommendationEntity;
 import com.example.recommendation.persistence.RecommendationRepository;
 import com.example.util.http.ServiceUtil;
 import lombok.AllArgsConstructor;
@@ -19,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+
+import java.util.logging.Level;
 
 @RestController
 @RequestMapping(value = "/recommendations")

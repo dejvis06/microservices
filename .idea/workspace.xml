@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add reviews to ProductAggregate mono">
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="uncomment get reviews implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2edad6a2bf3cbd68d796e2d638d587cab6f5e6a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fbe0020a09bbbf977802456f8263b7cc4dca685" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6177fb279b542aff060b0f2725787630539a0da3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7025eff8780d18d94f8450e691552d7489c0f27d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/812a8020450e911d5ca7db66ac76ad8dbf3305f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a5fb2c431510912c0b970448aafd7b1be04b711" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9218e18b8c8348d70cc354724021f1681f97ab94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c961ed398354f7d6f5ddb746ea1e7b0933a24aaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97dda24ce26a9efa5b25d412139cf04eb0a87ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df8a19cd2842b760d26417afed8b49161aedb89c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3a20751d7486f97095c633fe6e1ce2458adf197" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecc78a3eb3c73084246a5899f5ac78679220c71a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f067300c89ef7efbf2331b5f1ae45de109c5cbac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f507c21db2095220c2c83d4e9779545b3214f1c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +76,7 @@
       <recent name="com.example.composite.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.review-service">
+  <component name="RunManager" selected="Maven.product-composite-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -205,12 +224,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.ProductServiceApplication" />
+      <item itemvalue="JUnit.ReviewServiceApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.RecommendationServiceApplicationTests.contextLoads" />
       <item itemvalue="Maven.product-composite-service" />
       <item itemvalue="Maven.product-service" />
       <item itemvalue="Maven.recommendation-service" />
       <item itemvalue="Maven.review-service" />
-      <item itemvalue="JUnit.ReviewServiceApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.RecommendationServiceApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
@@ -565,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664107019345</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="uncomment get reviews implementation">
+      <created>1664107080657</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1664107080657</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -581,7 +607,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add other api's" />
     <MESSAGE value="add service method implementations" />
     <MESSAGE value="add openapi description" />
     <MESSAGE value="add impl for operations of entities" />
@@ -606,7 +631,8 @@
     <MESSAGE value="operate on arrays through streams" />
     <MESSAGE value="remove unused import" />
     <MESSAGE value="add reviews to ProductAggregate mono" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reviews to ProductAggregate mono" />
+    <MESSAGE value="uncomment get reviews implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="uncomment get reviews implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

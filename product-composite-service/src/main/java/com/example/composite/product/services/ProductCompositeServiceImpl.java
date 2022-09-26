@@ -4,22 +4,16 @@ import com.example.api.composite.product.*;
 import com.example.api.core.product.Product;
 import com.example.api.core.recommendation.Recommendation;
 import com.example.api.core.review.Review;
-import com.example.api.exceptions.NotFoundException;
 import com.example.util.http.ServiceUtil;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.stream.Collectors;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.reactive.function.client.WebClientResponseException;
-import reactor.core.publisher.Flux;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 import static java.util.logging.Level.FINE;
 
