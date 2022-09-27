@@ -180,8 +180,6 @@ Mreview-service/src/main/java/com/example/review/persistence/ReviewEntity.java,
 Qreview-service/src/main/java/com/example/review/persistence/ReviewRepository.java,d/0/d0352ad2b4907ba172ce3ca06a45e42c960cf4ce
 z
 Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d/ad9f89cb0774d92df791a9ddcb114d730e0f63bc
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
 €
 Papi/src/main/java/com/example/api/composite/product/ProductCompositeService.java,5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149
 Ÿ

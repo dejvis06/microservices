@@ -97,9 +97,9 @@ spring.cloud.stream:
   bindings:
     products-out-0:
       destination: products
-    products-out-0.producer:
-      partition-key-expression: headers['partitionKey']
-      partition-count: 2
+      producer:
+        partition-key-expression: headers['partitionKey']
+        partition-count: 2
 
 
 spring.rabbitmq:
