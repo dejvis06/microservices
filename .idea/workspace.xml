@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add message processor config for recommendation-service">
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change impl of create &amp; delete methods of recommendations in integration service">
       <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="com.example.composite.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.product-composite-service">
+  <component name="RunManager" selected="Maven.recommendation-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -228,20 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00008" summary="create product-composite api implementation">
-      <created>1662981315181</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1662981315181</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add services">
-      <created>1662993421841</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1662993421841</updated>
     </task>
     <task id="LOCAL-00010" summary="change port">
       <created>1662993667977</created>
@@ -572,7 +559,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664284103498</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add spring.cloud.stream configs in product-composite-service for recommendations">
+      <created>1664284371475</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1664284371475</updated>
+    </task>
+    <task id="LOCAL-00058" summary="change impl of create &amp; delete methods of recommendations in integration service">
+      <created>1664284479712</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1664284479712</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,8 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix review-service mapstruct problem" />
-    <MESSAGE value="fix app initialization error of mapstruct" />
     <MESSAGE value="fix product creation errors" />
     <MESSAGE value="fix product-composite creation errors" />
     <MESSAGE value="start containers successfully" />
@@ -613,7 +612,9 @@
     <MESSAGE value="add scheduler config for non-blocking executions" />
     <MESSAGE value="add spring.clod.stream configs in recommendation-service" />
     <MESSAGE value="add message processor config for recommendation-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add message processor config for recommendation-service" />
+    <MESSAGE value="add spring.cloud.stream configs in product-composite-service for recommendations" />
+    <MESSAGE value="change impl of create &amp; delete methods of recommendations in integration service" />
+    <option name="LAST_COMMIT_MESSAGE" value="change impl of create &amp; delete methods of recommendations in integration service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
