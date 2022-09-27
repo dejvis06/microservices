@@ -73,7 +73,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/api/src/main/java/com/example/api/event/Event.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/BadRequestException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/EventProcessingException.java">
           <value>
             <set />
           </value>
@@ -159,6 +169,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/MessageProcessorConfig.java">
           <value>
             <set />
           </value>

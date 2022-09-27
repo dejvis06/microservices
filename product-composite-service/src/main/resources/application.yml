@@ -12,6 +12,7 @@ app:
     host: localhost
     port: 7003
 
+# Openapi
 springdoc:
   swagger-ui.path: /openapi/swagger-ui.html
   api-docs.path: /openapi/v3/api-docs
@@ -88,9 +89,29 @@ api:
         This means that a delete request of a non-existing product will
         return **200 Ok**.
 
+
+# Message broker
+spring.cloud.stream:
+  defaultBinder: rabbit
+  default.contentType: application/json
+  bindings:
+    products-out-0:
+      destination: products
+    products-out-0.producer:
+      partition-key-expression: headers['partitionKey']
+      partition-count: 2
+
+
+spring.rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  username: guest
+  password: guest
+
 ---
 
 spring.config.activate.on-profile: docker
+
 server.port: 8080
 app:
   product-service:
@@ -102,3 +123,5 @@ app:
   review-service:
     host: review
     port: 8080
+
+spring.rabbitmq.host: rabbitmq
