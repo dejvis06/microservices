@@ -100,7 +100,11 @@ spring.cloud.stream:
       producer:
         partition-key-expression: headers['partitionKey']
         partition-count: 2
-
+    recommendations-out-0:
+      destination: recommendations
+      producer:
+        partition-key-expression: headers['partitionKey']
+        partition-count: 2
 
 spring.rabbitmq:
   host: 127.0.0.1

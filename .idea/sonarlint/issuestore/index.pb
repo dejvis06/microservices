@@ -88,8 +88,6 @@ s
 Capi/src/main/java/com/example/api/exceptions/NotFoundException.java,a/f/af9e8360161674ae7ff6c25eb5c186fa715817eb
 k
 ;util/src/main/java/com/example/util/http/HttpErrorInfo.java,9/a/9a4b962ca275cbf54e7da740d478a5768c623388
-€
-Papi/src/main/java/com/example/api/core/recommendation/RecommendationService.java,f/0/f04a526aeadda2363c5dd81c43d17e67bad6f034
 G
 product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
 {
@@ -166,8 +164,6 @@ Yproduct-service/src/main/java/com/example/api/core/product/persistence/ProductE
 Vproduct-service/src/main/java/com/example/api/core/product/services/ProductMapper.java,8/8/883b4aa2cab59d989a90c0be1770fa656de5ab49
 ‰
 Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplication.java,e/c/ec6475fc68e31afe91094d6177739688a81d8ad7
-™
-irecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationRepository.java,2/2/22da49a2f27af45b06aae5abdeee578d72755a53
 •
 erecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java,9/f/9f68e2890caa647611ff429c87b0b703dfe16367
 ’
@@ -182,8 +178,6 @@ Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d
 Papi/src/main/java/com/example/api/composite/product/ProductCompositeService.java,5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149
 Ÿ
 oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
-—
-grecommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java,f/3/f3b2e9d3cba069fc8f72a31133f0562555793687
 ‹
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
 
