@@ -9,6 +9,28 @@ logging:
   level:
     org.springframework.data.mongodb.core.MongoTemplate: DEBUG
 
+spring.cloud.stream:
+  defaultBinder: rabbit
+  default.contentType: application/json
+  bindings:
+    messageProcessor-in-0:
+      destination: recommendations
+      group: recommendationsGroup
+
+      consumer:
+        partitioned: true
+        instance-index: 0
+
+    messageProcessor-in-0.consumer:
+      maxAttempts: 3
+      backOffInitialInterval: 500
+      backOffMaxInterval: 1000
+      backOffMultiplier: 2.0
+
+  rabbit.bindings.messageProcessor-in-0.consumer:
+    autoBindDlq: true
+    republishToDlq: true
+
 ---
 spring.config.activate.on-profile: docker
 
