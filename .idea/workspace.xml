@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add event-driven asynchronous calls for save and delete methods of product-service">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="modify app.properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,13 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add product composite package and classes to api module">
-      <created>1662897099422</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1662897099422</updated>
     </task>
     <task id="LOCAL-00004" summary="add host and port of other services in config file of product-composite service">
       <created>1662974720802</created>
@@ -575,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664271582922</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="modify app.properties">
+      <created>1664273449404</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1664273449404</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add impl for operations of entities" />
     <MESSAGE value="add database config properties for product-service" />
     <MESSAGE value="add database config properties for recommendation-service" />
     <MESSAGE value="add database config properties for review-service" />
@@ -616,7 +613,8 @@
     <MESSAGE value="uncomment get reviews implementation" />
     <MESSAGE value="optimize imports" />
     <MESSAGE value="add event-driven asynchronous calls for save and delete methods of product-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add event-driven asynchronous calls for save and delete methods of product-service" />
+    <MESSAGE value="modify app.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify app.properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

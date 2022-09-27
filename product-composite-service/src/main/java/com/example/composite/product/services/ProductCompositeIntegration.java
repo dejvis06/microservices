@@ -6,6 +6,7 @@ import com.example.api.core.recommendation.Recommendation;
 import com.example.api.core.recommendation.RecommendationService;
 import com.example.api.core.review.Review;
 import com.example.api.core.review.ReviewService;
+import com.example.api.event.Event;
 import com.example.api.exceptions.InvalidInputException;
 import com.example.api.exceptions.NotFoundException;
 import com.example.util.http.HttpErrorInfo;
@@ -14,14 +15,20 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.stream.function.StreamBridge;
+import org.springframework.messaging.Message;
+import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Scheduler;
 
 import java.io.IOException;
 
+import static com.example.api.event.Event.Type.CREATE;
+import static com.example.api.event.Event.Type.DELETE;
 import static java.util.logging.Level.FINE;
 
 @Component
@@ -31,6 +38,8 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     private final WebClient webClient;
     private final ObjectMapper mapper;
+    private final StreamBridge streamBridge;
+    private final Scheduler publishEventScheduler;
 
     private final String productServiceUrl;
     private final String recommendationServiceUrl;
@@ -40,6 +49,8 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     public ProductCompositeIntegration(
             WebClient.Builder webClientBuilder,
             ObjectMapper mapper,
+            StreamBridge streamBridge,
+            Scheduler publishEventScheduler,
             @Value("${app.product-service.host}") String productServiceHost,
             @Value("${app.product-service.port}") int productServicePort,
             @Value("${app.recommendation-service.host}") String recommendationServiceHost,
@@ -49,7 +60,8 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
         this.webClient = webClientBuilder.build();
         this.mapper = mapper;
-
+        this.streamBridge = streamBridge;
+        this.publishEventScheduler = publishEventScheduler;
         productServiceUrl = "http://" + productServiceHost + ":" + productServicePort + "/products/";
         recommendationServiceUrl = "http://" + recommendationServiceHost + ":" + recommendationServicePort + "/recommendations";
         reviewServiceUrl = "http://" + reviewServiceHost + ":" + reviewServicePort + "/reviews";
@@ -70,23 +82,16 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     @Override
     public Mono<Product> createProduct(Product product) {
-        /*try {
-            return restTemplate.postForObject(
-                    productServiceUrl, product, Product.class);
-        } catch (HttpClientErrorException ex) {
-            throw handleHttpClientException(ex);
-        }*/
-        return null;
+        return Mono.fromCallable(() -> {
+            sendMessage("products-out-0", new Event<>(CREATE, product.getProductId(), product));
+            return product;
+        }).subscribeOn(publishEventScheduler);
     }
 
     @Override
     public Mono<Void> deleteProduct(int productId) {
-        /*try {
-            restTemplate.delete(productServiceUrl + "/" + productId);
-        } catch (HttpClientErrorException ex) {
-            throw handleHttpClientException(ex);
-        }*/
-        return null;
+        return Mono.fromRunnable(() -> sendMessage("products-out-0", new Event(DELETE, productId, null)))
+                .subscribeOn(publishEventScheduler).then();
     }
 
     @Override
@@ -131,6 +136,14 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     @Override
     public Mono<Void> deleteReviews(int productId) {
         return null;
+    }
+
+    private void sendMessage(String bindingName, Event event) {
+        LOG.debug("Sending a {} message to {}", event.getEventType(), bindingName);
+        Message message = MessageBuilder.withPayload(event)
+                .setHeader("partitionKey", event.getKey())
+                .build();
+        streamBridge.send(bindingName, message);
     }
 
     private Throwable handleException(Throwable ex) {
