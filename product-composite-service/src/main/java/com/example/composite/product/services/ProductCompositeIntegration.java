@@ -108,12 +108,16 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     @Override
     public Mono<Recommendation> createRecommendation(Recommendation recommendation) {
-        return null;
+        return Mono.fromCallable(() -> {
+            sendMessage("recommendations-out-0", new Event<>(CREATE, recommendation.getProductId(), recommendation));
+            return recommendation;
+        }).subscribeOn(publishEventScheduler);
     }
 
     @Override
     public Mono<Void> deleteRecommendations(int productId) {
-        return null;
+        return Mono.fromRunnable(() -> sendMessage("recommendations-out-0", new Event(DELETE, productId, null)))
+                .subscribeOn(publishEventScheduler).then();
     }
 
     @Override
