@@ -80,8 +80,6 @@ i
 9util/src/main/java/com/example/util/http/ServiceUtil.java,9/0/90694f49b612b8e076110a69e7c4969ef0485951
 k
 ;api/src/main/java/com/example/api/core/product/Product.java,b/9/b9d0951aab6e8399ea0a1ebc406458242ca2d7d6
-ù
-mproduct-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java,2/c/2cf32b426df949dbcf266dc482270b888521f90e
 Q
 !product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 y
