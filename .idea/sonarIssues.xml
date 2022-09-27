@@ -223,6 +223,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/MessageProcessorConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationMapper.java">
           <value>
             <set />

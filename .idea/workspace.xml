@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add impl for create &amp; delete methods in integration layer">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cf32b426df949dbcf266dc482270b888521f90e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add spring.clod.stream configs in recommendation-service">
+      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/MessageProcessorConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,20 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00005" summary="change naming of product-composite to plural">
-      <created>1662974763948</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1662974763948</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add recommendation and review classes">
-      <created>1662975495681</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1662975495681</updated>
     </task>
     <task id="LOCAL-00007" summary="rename package">
       <created>1662975738513</created>
@@ -575,7 +558,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664283041395</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add scheduler config for non-blocking executions">
+      <created>1664283653467</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1664283653467</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add spring.clod.stream configs in recommendation-service">
+      <created>1664283799959</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1664283799959</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,8 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add database config properties for recommendation-service" />
-    <MESSAGE value="add database config properties for review-service" />
     <MESSAGE value="modify username and pass" />
     <MESSAGE value="fix review-service mapstruct problem" />
     <MESSAGE value="fix app initialization error of mapstruct" />
@@ -616,7 +611,9 @@
     <MESSAGE value="add event-driven asynchronous calls for save and delete methods of product-service" />
     <MESSAGE value="modify app.properties" />
     <MESSAGE value="add impl for create &amp; delete methods in integration layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add impl for create &amp; delete methods in integration layer" />
+    <MESSAGE value="add scheduler config for non-blocking executions" />
+    <MESSAGE value="add spring.clod.stream configs in recommendation-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spring.clod.stream configs in recommendation-service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
