@@ -174,10 +174,6 @@ Mreview-service/src/main/java/com/example/review/persistence/ReviewEntity.java,
 Qreview-service/src/main/java/com/example/review/persistence/ReviewRepository.java,d/0/d0352ad2b4907ba172ce3ca06a45e42c960cf4ce
 z
 Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d/ad9f89cb0774d92df791a9ddcb114d730e0f63bc
-€
-Papi/src/main/java/com/example/api/composite/product/ProductCompositeService.java,5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 ‹
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
 

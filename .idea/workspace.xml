@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change impl of create &amp; delete methods of recommendations in integration service">
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change impl of create &amp; delete methods for reviews in the integration layer">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="com.example.composite.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.recommendation-service">
+  <component name="RunManager" selected="Maven.product-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -229,27 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00010" summary="change port">
-      <created>1662993667977</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1662993667977</updated>
-    </task>
-    <task id="LOCAL-00011" summary="initialize fields using constructor">
-      <created>1662993992936</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1662993992936</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add docker profile">
-      <created>1663154154827</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1663154154827</updated>
     </task>
     <task id="LOCAL-00013" summary="add Dockerfile">
       <created>1663154501844</created>
@@ -573,7 +553,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664284479712</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="add spring.cloud.stream in review-service &amp; composite service">
+      <created>1664284620653</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1664284620653</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add message processor config in review-service">
+      <created>1664284742634</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1664284742634</updated>
+    </task>
+    <task id="LOCAL-00061" summary="change impl of create &amp; delete methods for reviews in the integration layer">
+      <created>1664284875847</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1664284875847</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,9 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix product creation errors" />
-    <MESSAGE value="fix product-composite creation errors" />
-    <MESSAGE value="start containers successfully" />
     <MESSAGE value="fix url's" />
     <MESSAGE value="add reactive repositories" />
     <MESSAGE value="add reactive streaming for relational db" />
@@ -614,7 +612,10 @@
     <MESSAGE value="add message processor config for recommendation-service" />
     <MESSAGE value="add spring.cloud.stream configs in product-composite-service for recommendations" />
     <MESSAGE value="change impl of create &amp; delete methods of recommendations in integration service" />
-    <option name="LAST_COMMIT_MESSAGE" value="change impl of create &amp; delete methods of recommendations in integration service" />
+    <MESSAGE value="add spring.cloud.stream in review-service &amp; composite service" />
+    <MESSAGE value="add message processor config in review-service" />
+    <MESSAGE value="change impl of create &amp; delete methods for reviews in the integration layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="change impl of create &amp; delete methods for reviews in the integration layer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
