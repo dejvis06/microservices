@@ -19,6 +19,7 @@
         <module>product-service</module>
         <module>recommendation-service</module>
         <module>review-service</module>
+        <module>eureka-server</module>
     </modules>
 
     <dependencies>

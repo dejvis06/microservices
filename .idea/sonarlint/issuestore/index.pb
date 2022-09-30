@@ -198,8 +198,6 @@ v
 F.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml,1/a/1a8dd96cea24440cd3fef501076cfbfe31055338
 k
 ;.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml,5/f/5fbe0020a09bbbf977802456f8263b7cc4dca685
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 b
 2api/src/main/java/com/example/api/event/Event.java,2/0/20c8154473f0292f63bb69a935c79eb2a29cbc68
 z
