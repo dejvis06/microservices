@@ -78,8 +78,6 @@ I
 review-service/Dockerfile,e/2/e233ff16badd50d105bfdcd970c5841ea910bcf1
 i
 9util/src/main/java/com/example/util/http/ServiceUtil.java,9/0/90694f49b612b8e076110a69e7c4969ef0485951
-Q
-!product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 y
 Iapi/src/main/java/com/example/api/core/recommendation/Recommendation.java,2/b/2be5316b663c3ddb090e598357bb2854df1e6f0b
 s
@@ -92,10 +90,6 @@ c.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongod
 Nutil/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java,5/2/52e3b5728d96ad130b4aed5f832e07cfa8048265
 y
 Iapi/src/main/java/com/example/api/composite/product/ProductAggregate.java,b/7/b7f52cdc2112ebc05d89fef14b16e83c62113a9a
-N
-recommendation-service/pom.xml,9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f
-F
-review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 ‰
 Y.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml,8/4/845b5784e9e4dcdae2a3fc2103f81004ead9ca9a
 h

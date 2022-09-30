@@ -1,3 +1,5 @@
+spring.application.name: recommendations
+
 server.port: 7002
 
 spring.data.mongodb:
