@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change impl for create and delete methods in composite-service">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02731ee11a8c015944c5badb29d29e4f615858e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="set up discovery service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-composite-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14453125" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eureka-server" />
       <recent name="$PROJECT_DIR$/product-composite-service" />
       <recent name="$PROJECT_DIR$/review-service" />
       <recent name="$PROJECT_DIR$/recommendation-service" />
@@ -59,7 +56,7 @@
       <recent name="com.example.composite.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.product-composite-service">
+  <component name="RunManager" selected="Maven.eureka-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -104,6 +101,31 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="eureka-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="product-composite-service" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -210,6 +232,7 @@
       <item itemvalue="JUnit.ReviewServiceApplicationTests.contextLoads" />
       <item itemvalue="JUnit.RecommendationServiceApplicationTests.contextLoads" />
       <item itemvalue="Maven.product-composite-service" />
+      <item itemvalue="Maven.eureka-service" />
       <item itemvalue="Maven.product-service" />
       <item itemvalue="Maven.recommendation-service" />
       <item itemvalue="Maven.review-service" />
@@ -230,20 +253,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00014" summary="run a docker container">
-      <created>1663155884617</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1663155884617</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update app.properties and add docker-compose.yml">
-      <created>1663160412169</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1663160412169</updated>
     </task>
     <task id="LOCAL-00016" summary="update file">
       <created>1663160529118</created>
@@ -574,7 +583,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664285458188</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add service discovery module">
+      <created>1664531336756</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1664531336757</updated>
+    </task>
+    <task id="LOCAL-00064" summary="set up discovery service">
+      <created>1664531491511</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1664531491511</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,8 +613,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add reactive repositories" />
-    <MESSAGE value="add reactive streaming for relational db" />
     <MESSAGE value="fix initialization error" />
     <MESSAGE value="remove reactive streaming from review-service" />
     <MESSAGE value="add scheduler to main class" />
@@ -615,7 +636,9 @@
     <MESSAGE value="add message processor config in review-service" />
     <MESSAGE value="change impl of create &amp; delete methods for reviews in the integration layer" />
     <MESSAGE value="change impl for create and delete methods in composite-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="change impl for create and delete methods in composite-service" />
+    <MESSAGE value="add service discovery module" />
+    <MESSAGE value="set up discovery service" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up discovery service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
