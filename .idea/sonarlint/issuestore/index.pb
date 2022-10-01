@@ -238,7 +238,5 @@ k
 ;util/src/main/java/com/example/util/http/HttpErrorInfo.java,9/a/9a4b962ca275cbf54e7da740d478a5768c623388
 €
 Papi/src/main/java/com/example/api/composite/product/ProductCompositeService.java,5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 †
 Vproduct-service/src/main/java/com/example/api/core/product/services/ProductMapper.java,8/8/883b4aa2cab59d989a90c0be1770fa656de5ab49

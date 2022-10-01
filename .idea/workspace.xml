@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="modify global url variables">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="config eureka-server as root module">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,13 +258,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add api documentation annotations">
-      <created>1663235052471</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1663235052471</updated>
     </task>
     <task id="LOCAL-00021" summary="add exception and it's handler">
       <created>1663237308315</created>
@@ -602,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664537719113</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="config eureka-server as root module">
+      <created>1664538223688</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1664538223688</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,7 +618,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add reactive streaming through reactor.scheduler in relational db" />
     <MESSAGE value="remove condition" />
     <MESSAGE value="operate on arrays through streams" />
     <MESSAGE value="remove unused import" />
@@ -643,7 +642,8 @@
     <MESSAGE value="add application names" />
     <MESSAGE value="remove hardcoded host configs and add load-balanced aware webclient builder" />
     <MESSAGE value="modify global url variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify global url variables" />
+    <MESSAGE value="config eureka-server as root module" />
+    <option name="LAST_COMMIT_MESSAGE" value="config eureka-server as root module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
