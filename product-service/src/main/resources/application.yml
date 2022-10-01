@@ -37,7 +37,7 @@ spring.cloud.stream:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://${app.eureka-server}:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     initialInstanceInfoReplicationIntervalSeconds: 5 #Indicates how long initially (in seconds) to replicate instance info to the eureka server
     registryFetchIntervalSeconds: 5 #Indicates how often(in seconds) to fetch the registry information from the eureka server.
   instance:

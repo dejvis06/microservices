@@ -144,8 +144,6 @@ p
 @api/src/main/java/com/example/api/core/review/ReviewService.java,2/f/2fddb40df8730387922df3bc7b527c6d39184747
 ç
 ]product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java,3/c/3ce146cb9f75f4989c8531eefb4333bb05f7c23f
-â
-Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplication.java,e/c/ec6475fc68e31afe91094d6177739688a81d8ad7
 ï
 erecommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java,9/f/9f68e2890caa647611ff429c87b0b703dfe16367
 í
