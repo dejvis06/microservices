@@ -230,8 +230,6 @@ k
 ;api/src/main/java/com/example/api/core/product/Product.java,b/9/b9d0951aab6e8399ea0a1ebc406458242ca2d7d6
 ‰
 Yproduct-service/src/main/java/com/example/api/core/product/persistence/ProductEntity.java,a/c/aca3dcb822732e40ea7802a3eed07fa7e4d2303b
-r
-Bapi/src/main/java/com/example/api/core/product/ProductService.java,4/1/4173e811853f8a50ab0d18c333f5c463c501f490
 k
 ;util/src/main/java/com/example/util/http/HttpErrorInfo.java,9/a/9a4b962ca275cbf54e7da740d478a5768c623388
 €

@@ -60,7 +60,7 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     @Override
     public Mono<Product> getProduct(int productId) {
-        String url = PRODUCT_SERVICE_URL + productId;
+        String url = PRODUCT_SERVICE_URL + "/products/" + productId;
         LOG.debug("Will call getProduct API on URL: {}", url);
 
         return webClient.get()
