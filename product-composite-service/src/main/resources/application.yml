@@ -108,6 +108,17 @@ spring.rabbitmq:
   username: guest
   password: guest
 
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${app.eureka-server}:8761/eureka/
+    initialInstanceInfoReplicationIntervalSeconds: 5
+    registryFetchIntervalSeconds: 5
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 5
+
 ---
 
 spring.config.activate.on-profile: docker
@@ -125,3 +136,5 @@ app:
     port: 8080
 
 spring.rabbitmq.host: rabbitmq
+
+eureka.client.serviceUrl.defaultZone: http://eureka:8761/eureka/
