@@ -1,4 +1,4 @@
-spring.application.name: recommendations
+spring.application.name: recommendation
 
 server.port: 7002
 

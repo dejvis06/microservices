@@ -1,4 +1,4 @@
-spring.application.name: products
+spring.application.name: product
 
 server:
   port: 7001
