@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="configure gateway pom.xml">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add load-balanced webclient-builder to gateway">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,20 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00034" summary="fix app initialization error of mapstruct">
-      <created>1663418217638</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1663418217638</updated>
-    </task>
-    <task id="LOCAL-00035" summary="fix product-composite creation errors">
-      <created>1663421389340</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1663421389340</updated>
     </task>
     <task id="LOCAL-00036" summary="start containers successfully">
       <created>1663583714073</created>
@@ -599,7 +587,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664713749762</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="add gateway service to docker-compose.yml">
+      <created>1664714042811</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1664714042811</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add load-balanced webclient-builder to gateway">
+      <created>1664714091990</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1664714091990</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,8 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add spring.cloud.stream configs in product-composite-service for recommendations" />
-    <MESSAGE value="change impl of create &amp; delete methods of recommendations in integration service" />
     <MESSAGE value="add spring.cloud.stream in review-service &amp; composite service" />
     <MESSAGE value="add message processor config in review-service" />
     <MESSAGE value="change impl of create &amp; delete methods for reviews in the integration layer" />
@@ -640,7 +640,9 @@
     <MESSAGE value="add gateway module" />
     <MESSAGE value="add gitignore for root" />
     <MESSAGE value="configure gateway pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure gateway pom.xml" />
+    <MESSAGE value="add gateway service to docker-compose.yml" />
+    <MESSAGE value="add load-balanced webclient-builder to gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="add load-balanced webclient-builder to gateway" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

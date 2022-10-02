@@ -2,6 +2,7 @@ spring.application.name: product-composite
 
 server:
   port: 7000
+  forward-headers-strategy: framework
 
 # Openapi
 springdoc:
