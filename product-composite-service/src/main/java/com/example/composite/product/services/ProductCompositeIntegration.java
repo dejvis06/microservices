@@ -41,9 +41,9 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
     private final StreamBridge streamBridge;
     private final Scheduler publishEventScheduler;
 
-    private static final String PRODUCT_SERVICE_URL = "http://product";
-    private static final String RECOMMENDATION_SERVICE_URL = "http://recommendation";
-    private static final String REVIEW_SERVICE_URL = "http://review";
+    private static final String PRODUCT_SERVICE_URL = "http://product/products";
+    private static final String RECOMMENDATION_SERVICE_URL = "http://recommendation/recommendations";
+    private static final String REVIEW_SERVICE_URL = "http://review/reviews";
 
     @Autowired
     public ProductCompositeIntegration(
@@ -60,7 +60,7 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     @Override
     public Mono<Product> getProduct(int productId) {
-        String url = PRODUCT_SERVICE_URL + "/products/" + productId;
+        String url = PRODUCT_SERVICE_URL + "/" + productId;
         LOG.debug("Will call getProduct API on URL: {}", url);
 
         return webClient.get()

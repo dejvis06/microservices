@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change path">
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add logs to integration layer before Get calls">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,20 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add openapi description">
-      <created>1663332517312</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1663332517312</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add impl for operations of entities">
-      <created>1663333975907</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1663333975907</updated>
     </task>
     <task id="LOCAL-00029" summary="add database config properties for product-service">
       <created>1663408609711</created>
@@ -602,7 +587,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664638122906</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="change app.names to singular">
+      <created>1664709098337</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1664709098338</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add logs to integration layer before Get calls">
+      <created>1664710008090</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1664710008090</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,8 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add event-driven asynchronous calls for save and delete methods of product-service" />
-    <MESSAGE value="modify app.properties" />
     <MESSAGE value="add impl for create &amp; delete methods in integration layer" />
     <MESSAGE value="add scheduler config for non-blocking executions" />
     <MESSAGE value="add spring.clod.stream configs in recommendation-service" />
@@ -643,7 +640,9 @@
     <MESSAGE value="change host and eureka-client version" />
     <MESSAGE value="move spring cloud dependencies management to the root pom" />
     <MESSAGE value="change path" />
-    <option name="LAST_COMMIT_MESSAGE" value="change path" />
+    <MESSAGE value="change app.names to singular" />
+    <MESSAGE value="add logs to integration layer before Get calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logs to integration layer before Get calls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

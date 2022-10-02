@@ -322,8 +322,6 @@ f
 6.idea/libraries/Maven__com_google_guava_guava_19_0.xml,9/8/9820e255363a8ed216da64c6f0c38a465a2d02e5
 h
 8.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml,a/1/a17948be64982080953ed412ac73d2d42d2e8cf8
-ü
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 ù
 mproduct-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java,2/c/2cf32b426df949dbcf266dc482270b888521f90e
 â
