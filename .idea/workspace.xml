@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add load-balanced webclient-builder to gateway">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add gateway application properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="com.example.composite.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.review-service">
+  <component name="RunManager" selected="Maven.product-composite-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -126,6 +126,31 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="gateway" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/gateway" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -236,6 +261,7 @@
       <item itemvalue="JUnit.ReviewServiceApplicationTests.contextLoads" />
       <item itemvalue="JUnit.RecommendationServiceApplicationTests.contextLoads" />
       <item itemvalue="Maven.product-composite-service" />
+      <item itemvalue="Maven.gateway" />
       <item itemvalue="Maven.eureka-service" />
       <item itemvalue="Maven.product-service" />
       <item itemvalue="Maven.recommendation-service" />
@@ -257,13 +283,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00036" summary="start containers successfully">
-      <created>1663583714073</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1663583714073</updated>
     </task>
     <task id="LOCAL-00037" summary="fix url's">
       <created>1663589986026</created>
@@ -601,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664714091990</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="add gateway application properties">
+      <created>1664715182669</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715182669</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -617,7 +643,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add spring.cloud.stream in review-service &amp; composite service" />
     <MESSAGE value="add message processor config in review-service" />
     <MESSAGE value="change impl of create &amp; delete methods for reviews in the integration layer" />
     <MESSAGE value="change impl for create and delete methods in composite-service" />
@@ -642,7 +667,8 @@
     <MESSAGE value="configure gateway pom.xml" />
     <MESSAGE value="add gateway service to docker-compose.yml" />
     <MESSAGE value="add load-balanced webclient-builder to gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="add load-balanced webclient-builder to gateway" />
+    <MESSAGE value="add gateway application properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gateway application properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
