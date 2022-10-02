@@ -331,8 +331,6 @@ Q
 !product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 F
 review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
-E
-eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 ‹
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
 r

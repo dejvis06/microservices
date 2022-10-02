@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="correct url's on the integration layer of the composite service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add gitignore for root">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b39ae52d769ea03b699b5602439afd875433c8a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,27 +258,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add database config properties for recommendation-service">
-      <created>1663408703216</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1663408703216</updated>
-    </task>
-    <task id="LOCAL-00031" summary="add database config properties for review-service">
-      <created>1663409054708</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1663409054708</updated>
-    </task>
-    <task id="LOCAL-00032" summary="modify username and pass">
-      <created>1663409392679</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1663409392679</updated>
     </task>
     <task id="LOCAL-00033" summary="fix review-service mapstruct problem">
       <created>1663414576925</created>
@@ -599,7 +581,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664710339112</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add gateway module">
+      <created>1664713391977</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1664713391977</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add gitignore for root">
+      <created>1664713503644</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1664713503644</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add gitignore for root">
+      <created>1664713506881</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1664713506881</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,8 +618,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add scheduler config for non-blocking executions" />
-    <MESSAGE value="add spring.clod.stream configs in recommendation-service" />
     <MESSAGE value="add message processor config for recommendation-service" />
     <MESSAGE value="add spring.cloud.stream configs in product-composite-service for recommendations" />
     <MESSAGE value="change impl of create &amp; delete methods of recommendations in integration service" />
@@ -640,7 +641,9 @@
     <MESSAGE value="change app.names to singular" />
     <MESSAGE value="add logs to integration layer before Get calls" />
     <MESSAGE value="correct url's on the integration layer of the composite service" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct url's on the integration layer of the composite service" />
+    <MESSAGE value="add gateway module" />
+    <MESSAGE value="add gitignore for root" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore for root" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
