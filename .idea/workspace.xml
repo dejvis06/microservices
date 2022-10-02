@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add logs to integration layer before Get calls">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="correct url's on the integration layer of the composite service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,13 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add database config properties for product-service">
-      <created>1663408609711</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1663408609711</updated>
     </task>
     <task id="LOCAL-00030" summary="add database config properties for recommendation-service">
       <created>1663408703216</created>
@@ -601,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664710008090</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="correct url's on the integration layer of the composite service">
+      <created>1664710339112</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1664710339112</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -617,7 +615,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add impl for create &amp; delete methods in integration layer" />
     <MESSAGE value="add scheduler config for non-blocking executions" />
     <MESSAGE value="add spring.clod.stream configs in recommendation-service" />
     <MESSAGE value="add message processor config for recommendation-service" />
@@ -642,7 +639,8 @@
     <MESSAGE value="change path" />
     <MESSAGE value="change app.names to singular" />
     <MESSAGE value="add logs to integration layer before Get calls" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logs to integration layer before Get calls" />
+    <MESSAGE value="correct url's on the integration layer of the composite service" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct url's on the integration layer of the composite service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

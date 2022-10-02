@@ -1,9 +1,6 @@
 
 k
 ;.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml,e/3/e3631492191c257e535ea753f84db0f0f91375fd
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 y
 Iapi/src/main/java/com/example/api/composite/product/ServiceAddresses.java,b/f/bf741ea945e58b8c09d798c9ec879541cc3557f6
 •
@@ -336,8 +333,6 @@ F
 review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 ‹
 [product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java,0/2/02731ee11a8c015944c5badb29d29e4f615858e5
 r
