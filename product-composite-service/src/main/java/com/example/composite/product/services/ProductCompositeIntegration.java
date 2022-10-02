@@ -87,8 +87,9 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     @Override
     public Flux<Recommendation> getRecommendations(int productId) {
-
         String url = RECOMMENDATION_SERVICE_URL + "?productId=" + productId;
+        LOG.debug("Will call getRecommendations API on URL: {}", url);
+
         return webClient.get()
                 .uri(url)
                 .retrieve()
@@ -113,8 +114,9 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
 
     @Override
     public Flux<Review> getReviews(int productId) {
-
         String url = REVIEW_SERVICE_URL + "?productId=" + productId;
+        LOG.debug("Will call getReviews API on URL: {}", url);
+
         return webClient.get()
                 .uri(url)
                 .retrieve()
@@ -153,7 +155,7 @@ public class ProductCompositeIntegration implements ProductService, ReviewServic
         }
 
         WebClientResponseException wcre = (WebClientResponseException) ex;
-
+        wcre.printStackTrace();
         switch (wcre.getStatusCode()) {
 
             case NOT_FOUND:
