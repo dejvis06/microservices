@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="util" />
+        <module name="authorization-server" />
         <module name="review-service" />
         <module name="product-composite-service" />
         <module name="product-service" />
@@ -19,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
+      <module name="authorization-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="microservices" target="1.8" />
@@ -32,6 +34,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
+      <module name="authorization-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="microservices" options="-parameters" />

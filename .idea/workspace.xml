@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add gateway application properties">
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="fix gateway routing predicate path">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,13 +283,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00037" summary="fix url's">
-      <created>1663589986026</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1663589986026</updated>
     </task>
     <task id="LOCAL-00038" summary="add reactive repositories">
       <created>1663944463483</created>
@@ -627,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664715182669</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="fix gateway routing predicate path">
+      <created>1664715868186</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715868186</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,7 +643,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add message processor config in review-service" />
     <MESSAGE value="change impl of create &amp; delete methods for reviews in the integration layer" />
     <MESSAGE value="change impl for create and delete methods in composite-service" />
     <MESSAGE value="add service discovery module" />
@@ -668,7 +667,8 @@
     <MESSAGE value="add gateway service to docker-compose.yml" />
     <MESSAGE value="add load-balanced webclient-builder to gateway" />
     <MESSAGE value="add gateway application properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gateway application properties" />
+    <MESSAGE value="fix gateway routing predicate path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gateway routing predicate path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
