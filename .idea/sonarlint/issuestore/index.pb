@@ -151,8 +151,6 @@ Mreview-service/src/main/java/com/example/review/persistence/ReviewEntity.java,
 Qreview-service/src/main/java/com/example/review/persistence/ReviewRepository.java,d/0/d0352ad2b4907ba172ce3ca06a45e42c960cf4ce
 z
 Jreview-service/src/main/java/com/example/review/services/ReviewMapper.java,a/d/ad9f89cb0774d92df791a9ddcb114d730e0f63bc
-
-Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 v
 F.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml,0/2/02d343b9b5c40c9dc7299e4cf12f13714aa26b77
 d
@@ -327,8 +325,6 @@ N
 recommendation-service/pom.xml,9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f
 G
 product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
-Q
-!product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 F
 review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 ‹
@@ -364,7 +360,5 @@ E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 q
 Agateway/src/main/java/com/example/gateway/GatewayApplication.java,1/4/1437468eeed6b38c55f2e1d59d17012de870defd
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 ?
 gateway/pom.xml,4/b/4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
