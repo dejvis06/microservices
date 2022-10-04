@@ -374,13 +374,9 @@ u
 Eauthorization-server/src/main/java/sample/jose/KeyGeneratorUtils.java,9/6/96d34f8c7ea395b322cd52e13d9b7f67f64de62b
 
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
-Q
-!product-composite-service/pom.xml,0/7/07fdb9d6dcc92071c811ddf2957970946b50165a
 Ÿ
 oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 L
 authorization-server/pom.xml,8/f/8fb8260bcd867b595bb3df907b1a9671d806a999
 B
 docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
-?
-gateway/pom.xml,4/b/4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3

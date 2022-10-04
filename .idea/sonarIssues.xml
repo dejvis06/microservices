@@ -148,6 +148,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/gateway/src/main/resources/application.yml">
           <value>
             <set />
@@ -174,6 +179,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/SecurityConfig.java">
           <value>
             <set />
           </value>
