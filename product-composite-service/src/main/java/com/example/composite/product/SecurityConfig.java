@@ -10,6 +10,8 @@ import org.springframework.security.web.server.SecurityWebFilterChain;
 @EnableWebFluxSecurity
 public class SecurityConfig {
 
+    public static final String PRODUCTS_COMPOSITE = "/products-composite/**";
+
     @Bean
     SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity http) {
         http
@@ -17,9 +19,9 @@ public class SecurityConfig {
                 .pathMatchers("/openapi/**").permitAll()
                 .pathMatchers("/webjars/**").permitAll()
                 .pathMatchers("/actuator/**").permitAll()
-                .pathMatchers(POST, "/product-composite/**").hasAuthority("SCOPE_product:write")
-                .pathMatchers(DELETE, "/product-composite/**").hasAuthority("SCOPE_product:write")
-                .pathMatchers(GET, "/product-composite/**").hasAuthority("SCOPE_product:read")
+                .pathMatchers(POST, PRODUCTS_COMPOSITE).hasAuthority("SCOPE_product:write")
+                .pathMatchers(DELETE, PRODUCTS_COMPOSITE).hasAuthority("SCOPE_product:write")
+                .pathMatchers(GET, PRODUCTS_COMPOSITE).hasAuthority("SCOPE_product:read")
                 .anyExchange().authenticated()
                 .and()
                 .oauth2ResourceServer()
