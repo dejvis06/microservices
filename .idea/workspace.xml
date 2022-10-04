@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add username and password to eureka server">
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/certificate/edge.p12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change port to an alternative https port">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,27 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00042" summary="add scheduler to main class">
-      <created>1664103978308</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1664103978308</updated>
-    </task>
-    <task id="LOCAL-00043" summary="change database root user password">
-      <created>1664106114008</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1664106114008</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add reactive streaming through reactor.scheduler in relational db">
-      <created>1664106409415</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1664106409415</updated>
     </task>
     <task id="LOCAL-00045" summary="remove condition">
       <created>1664106542854</created>
@@ -657,7 +635,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664803343488</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="create ssl certificate">
+      <created>1664872388323</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1664872388323</updated>
+    </task>
+    <task id="LOCAL-00092" summary="config gateway to use ssl">
+      <created>1664872488459</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1664872488459</updated>
+    </task>
+    <task id="LOCAL-00093" summary="change port to an alternative https port">
+      <created>1664872980924</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1664872980924</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -674,9 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add server port for discovery service" />
-    <MESSAGE value="add application names" />
-    <MESSAGE value="remove hardcoded host configs and add load-balanced aware webclient builder" />
     <MESSAGE value="modify global url variables" />
     <MESSAGE value="config eureka-server as root module" />
     <MESSAGE value="add eureka-server configs" />
@@ -699,7 +695,10 @@
     <MESSAGE value="change pom parent tag of authorization-server" />
     <MESSAGE value="remove slf4j dependency" />
     <MESSAGE value="add username and password to eureka server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add username and password to eureka server" />
+    <MESSAGE value="create ssl certificate" />
+    <MESSAGE value="config gateway to use ssl" />
+    <MESSAGE value="change port to an alternative https port" />
+    <option name="LAST_COMMIT_MESSAGE" value="change port to an alternative https port" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
