@@ -384,7 +384,5 @@ L
 authorization-server/pom.xml,8/f/8fb8260bcd867b595bb3df907b1a9671d806a999
 {
 Kauthorization-server/src/main/java/sample/config/DefaultSecurityConfig.java,a/2/a235b0e6623efe05a2299a42cabffabe0e766573
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 
 Oauthorization-server/src/main/java/sample/config/AuthorizationServerConfig.java,b/d/bd9e20df1d0bdd769aa8595d0f47bdfaa1d454f1
