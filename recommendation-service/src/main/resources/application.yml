@@ -33,10 +33,15 @@ spring.cloud.stream:
     autoBindDlq: true
     republishToDlq: true
 
+app:
+  eureka-username: u
+  eureka-password: p
+  eureka-server: localhost
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: "http://${app.eureka-username}:${app.eureka-password}@${app.eureka-server}:8761/eureka/"
     initialInstanceInfoReplicationIntervalSeconds: 5 #Indicates how long initially (in seconds) to replicate instance info to the eureka server
     registryFetchIntervalSeconds: 5 #Indicates how often(in seconds) to fetch the registry information from the eureka server.
   instance:
