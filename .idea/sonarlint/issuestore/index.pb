@@ -354,8 +354,6 @@ n
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-E
-eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 q
 Agateway/src/main/java/com/example/gateway/GatewayApplication.java,1/4/1437468eeed6b38c55f2e1d59d17012de870defd
 O
@@ -382,7 +380,7 @@ Q
 oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 L
 authorization-server/pom.xml,8/f/8fb8260bcd867b595bb3df907b1a9671d806a999
-{
-Kauthorization-server/src/main/java/sample/config/DefaultSecurityConfig.java,a/2/a235b0e6623efe05a2299a42cabffabe0e766573
-
-Oauthorization-server/src/main/java/sample/config/AuthorizationServerConfig.java,b/d/bd9e20df1d0bdd769aa8595d0f47bdfaa1d454f1
+B
+docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
+?
+gateway/pom.xml,4/b/4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
