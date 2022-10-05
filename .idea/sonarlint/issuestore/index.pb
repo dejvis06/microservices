@@ -374,9 +374,17 @@ u
 Eauthorization-server/src/main/java/sample/jose/KeyGeneratorUtils.java,9/6/96d34f8c7ea395b322cd52e13d9b7f67f64de62b
 
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java,c/c/ccf604637e71ad40cbeb78d7b874fdb9b6c7318b
 L
 authorization-server/pom.xml,8/f/8fb8260bcd867b595bb3df907b1a9671d806a999
 B
 docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
+{
+Kauthorization-server/src/main/java/sample/config/DefaultSecurityConfig.java,a/2/a235b0e6623efe05a2299a42cabffabe0e766573
+
+Oauthorization-server/src/main/java/sample/config/AuthorizationServerConfig.java,b/d/bd9e20df1d0bdd769aa8595d0f47bdfaa1d454f1
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+x
+Heureka-server/src/main/java/com/example/eurekaserver/SecurityConfig.java,1/c/1c7329de2d0fb55966e26c66664e110dbcdfb2bf
+E
+eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
