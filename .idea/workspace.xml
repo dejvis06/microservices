@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add openapi oauth2 configs">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5238b1cd00fa58ea2bc04ee44cb58ff08e26f149" beforeDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add app.properties for communication between openapi and authorization-server">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,13 +313,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00055" summary="add spring.clod.stream configs in recommendation-service">
-      <created>1664283799959</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1664283799959</updated>
     </task>
     <task id="LOCAL-00056" summary="add message processor config for recommendation-service">
       <created>1664284103498</created>
@@ -658,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664962974926</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="add app.properties for communication between openapi and authorization-server">
+      <created>1664963342923</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1664963342923</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -675,7 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add logs to integration layer before Get calls" />
     <MESSAGE value="correct url's on the integration layer of the composite service" />
     <MESSAGE value="add gateway module" />
     <MESSAGE value="add gitignore for root" />
@@ -700,7 +698,8 @@
     <MESSAGE value="extract global variables" />
     <MESSAGE value="add auth-server configs for clients" />
     <MESSAGE value="add openapi oauth2 configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add openapi oauth2 configs" />
+    <MESSAGE value="add app.properties for communication between openapi and authorization-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app.properties for communication between openapi and authorization-server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -378,8 +378,6 @@ B
 docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
 {
 Kauthorization-server/src/main/java/sample/config/DefaultSecurityConfig.java,a/2/a235b0e6623efe05a2299a42cabffabe0e766573
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 x
 Heureka-server/src/main/java/com/example/eurekaserver/SecurityConfig.java,1/c/1c7329de2d0fb55966e26c66664e110dbcdfb2bf
 E
