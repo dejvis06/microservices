@@ -98,6 +98,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/DefaultSecurityConfig.java">
           <value>
             <set />
@@ -149,6 +154,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/services/ProductCompositeServiceImpl.java">
           <value>
             <set />
           </value>

@@ -31,10 +31,6 @@ w
 Gapi/src/main/java/com/example/api/exceptions/InvalidInputException.java,0/0/006125c364c94dd69770c8d4290f55ea1211dabf
 u
 Eapi/src/main/java/com/example/api/exceptions/BadRequestException.java,b/e/be2c9769c8f0e7411b25952619c98add258948fc
-<
-util/pom.xml,c/0/c051587fcbc2f445d6e459e1ef985d9153560261
-;
-api/pom.xml,f/e/fe5c43214168bd8de1d8afa275215a8e9b9de634
 ¢
 rproduct-composite-service/src/test/java/com/example/composite/product/ProductCompositeServiceApplicationTests.java,1/1/113ba856c9fc8d27267dfc24e811f380c5939893
 t
@@ -73,8 +69,6 @@ i
 9api/src/main/java/com/example/api/core/review/Review.java,9/e/9ebe2575196f3af394ee16f08112a7af7bc8a1d5
 I
 review-service/Dockerfile,e/2/e233ff16badd50d105bfdcd970c5841ea910bcf1
-i
-9util/src/main/java/com/example/util/http/ServiceUtil.java,9/0/90694f49b612b8e076110a69e7c4969ef0485951
 y
 Iapi/src/main/java/com/example/api/core/recommendation/Recommendation.java,2/b/2be5316b663c3ddb090e598357bb2854df1e6f0b
 s
@@ -315,14 +309,10 @@ f
 6.idea/libraries/Maven__com_google_guava_guava_19_0.xml,9/8/9820e255363a8ed216da64c6f0c38a465a2d02e5
 h
 8.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml,a/1/a17948be64982080953ed412ac73d2d42d2e8cf8
-
-mproduct-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java,2/c/2cf32b426df949dbcf266dc482270b888521f90e
 ‰
 Yproduct-service/src/main/java/com/example/api/core/product/ProductServiceApplication.java,e/c/ec6475fc68e31afe91094d6177739688a81d8ad7
 N
 recommendation-service/pom.xml,9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f
-G
-product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
 F
 review-service/pom.xml,a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65
 ‹
@@ -333,8 +323,6 @@ Bapi/src/main/java/com/example/api/core/product/ProductService.java,4/1/4173e81
 _product-service/src/main/java/com/example/api/core/product/services/MessageProcessorConfig.java,6/8/68f6eb4c5c3d933760f93a89d27f13e82530f762
 •
 e.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_3_1_4.xml,5/2/5293a22b6a67e0f039e30068fa4dc9cf1342abf1
-Ÿ
-oproduct-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java,3/0/30333202a26fe1d19036eeead23a53e09cb9d698
 ‡
 W.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_1_4.xml,9/6/96d8a44f0ad4c9c33800e7570361802c6409433e
 †
@@ -352,8 +340,6 @@ n
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-q
-Agateway/src/main/java/com/example/gateway/GatewayApplication.java,1/4/1437468eeed6b38c55f2e1d59d17012de870defd
 O
 authorization-server/.gitignore,5/3/53eaeea2bbb680e67130542b4c3ff27e29048827
 M
@@ -362,22 +348,14 @@ I
 authorization-server/mvnw,5/9/592cda4ad49c7b2db6b0b2651302aae2213ce9af
 j
 :authorization-server/.mvn/wrapper/maven-wrapper.properties,9/f/9fe3d942abcae6b56f592e282492a5fe191b1488
-ƒ
-Sauthorization-server/src/main/java/sample/OAuth2AuthorizationServerApplication.java,8/8/88d9077519110712280c4c3b0531ff99c0e44d70
-h
-8authorization-server/src/main/java/sample/jose/Jwks.java,7/9/79fa9752988b9d1cf125506d4c8d6fb1ca5eac76
 ˆ
 Xauthorization-server/src/test/java/sample/OAuth2AuthorizationServerApplicationTests.java,7/1/71fb4699ae121c1102752eb189ddeef0e77137d3
-u
-Eauthorization-server/src/main/java/sample/jose/KeyGeneratorUtils.java,9/6/96d34f8c7ea395b322cd52e13d9b7f67f64de62b
 
 Oreview-service/src/main/java/com/example/review/services/ReviewServiceImpl.java,4/f/4f24e391a44627c2b6d6230719246e7c724d5f75
 L
 authorization-server/pom.xml,8/f/8fb8260bcd867b595bb3df907b1a9671d806a999
 B
 docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
-{
-Kauthorization-server/src/main/java/sample/config/DefaultSecurityConfig.java,a/2/a235b0e6623efe05a2299a42cabffabe0e766573
 x
 Heureka-server/src/main/java/com/example/eurekaserver/SecurityConfig.java,1/c/1c7329de2d0fb55966e26c66664e110dbcdfb2bf
 E

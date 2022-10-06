@@ -7,6 +7,7 @@
         <artifactId>microservices</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <groupId>com.example.composite.product</groupId>
     <artifactId>product-composite-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>product-composite-service</name>
@@ -32,18 +33,23 @@
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.6.11</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-webflux-ui</artifactId>
+            <version>1.6.11</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-oauth2-resource-server</artifactId>
-            <version>5.7.3</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-oauth2-jose</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
