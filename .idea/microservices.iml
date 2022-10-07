@@ -95,7 +95,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.projectreactor:reactor-test:3.4.23" level="project" />
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.23" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.7.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.7.4" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-core:1.9.4" level="project" />
