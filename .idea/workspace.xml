@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="remove redirect-uri">
-      <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add redirect uri to auth-server">
+      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/sample/CustomConsentAuthorizationServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/sample/web/AuthorizationConsentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/resources/templates/consent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3d00f4fcd882bd69b0ee30d270b58a37a69d951" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/OAuth2AuthorizationServerApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/DefaultSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/jose/Jwks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/jose/KeyGeneratorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/test/java/sample/OAuth2AuthorizationServerApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,7 @@
       <recent name="com.example.api.core.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.review-service">
+  <component name="RunManager" selected="Maven.product-composite-service">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -322,20 +327,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00060" summary="add message processor config in review-service">
-      <created>1664284742634</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1664284742634</updated>
-    </task>
-    <task id="LOCAL-00061" summary="change impl of create &amp; delete methods for reviews in the integration layer">
-      <created>1664284875847</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1664284875847</updated>
     </task>
     <task id="LOCAL-00062" summary="change impl for create and delete methods in composite-service">
       <created>1664285458187</created>
@@ -666,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665153934675</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="remove app.type = reactive from gateway &amp; remove spring-web dependency">
+      <created>1665220127686</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1665220127687</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add redirect uri to auth-server">
+      <created>1665220141413</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1665220141414</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -683,8 +688,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add gateway service to docker-compose.yml" />
-    <MESSAGE value="add load-balanced webclient-builder to gateway" />
     <MESSAGE value="add gateway application properties" />
     <MESSAGE value="fix gateway routing predicate path" />
     <MESSAGE value="add authorization server" />
@@ -708,7 +711,9 @@
     <MESSAGE value="start apps successfully" />
     <MESSAGE value="remove dependency exclusion and actuator version" />
     <MESSAGE value="remove redirect-uri" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove redirect-uri" />
+    <MESSAGE value="remove app.type = reactive from gateway &amp; remove spring-web dependency" />
+    <MESSAGE value="add redirect uri to auth-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redirect uri to auth-server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

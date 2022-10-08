@@ -113,6 +113,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/authorization-server/src/test/java/sample/CustomConsentAuthorizationServerTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docker-compose.yml">
           <value>
             <set />
@@ -394,6 +399,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/util/src/main/java/com/example/util/http/HttpErrorInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-authorization-server-main/oauth2-authorization-server/spring-security-oauth2-authorization-server.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-authorization-server-main/settings.gradle">
           <value>
             <set />
           </value>
