@@ -4,49 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="remove dependency exclusion and actuator version">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0193ad94fb9ffd805089630d3f4472c926fe5642" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0dd44e3d62bb61b63b586b2e4b5ddfe806b005b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15c50f4cd4153b4e2a17f66825cf042127a58d1a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/188a324fddeba1306176fc6e68ffeea4cba00709" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a8dd96cea24440cd3fef501076cfbfe31055338" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/299dfe6681863f60a7898aba5b0789185387cb39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2ad3bd4290261a36e7c346bac9216123a3c5d279" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c6891512c0768f0ac268929ca1041d785d390e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c6a7c3d0a94df0722a9a79c23bee773514294b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f3bc7287b48075da462c7964d32b15ec600d85e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e59aa5e010f885f2d29047a9ab56cfbe37a82de" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ca77eb587fed5882902f3fc9a683df44542e4f7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6411c2f90b88c7ce9859416bd8e92810f4129f9f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66e8b7d7f7443ddcdaccd66a3c06c6b9aa66f551" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7740e8a91d17d97dc01bb3d32d6da1ec955f9628" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cab9adb1171563cb52cd6eec20a395ebefcd4a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/813db62df30ad70e479688806d5b4376cb73e335" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/819ffa7bac9f7d0e9f2fef228ce3b5135e130b11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d5752a6283191b5910170b32ae0893d73f6e53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a456def1f23839a8d2101e3f2780711012d84a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b72037c1e8b0f4ffe6f820603b401f180846ecc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b950c32d2e97ce02c6393697c60983743a5fb5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1e06064747a786a170fc6f0ee3e494b154e3d65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a71e9b895c137e23a756afcd6935bbb4b9bf8bc4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b804e860b5bdb993ca239c4a61e50ab4f41f48a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d547cb1fb5bdfb2adb7662382f960595e698dbd1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d65ed31354a8ea87109f7d0817738245eb22d098" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6b5ebb971cfa8f7b20881553957ba4bfd92b387" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d748d8766080efc90fdc1cab153cb0f95a859ff1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d910c7e8e77792b6f484f21114257fcfed8c0b6a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df5c2e4f152bd51881162be17aaf5f608ccce8fd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e11341d3ba4ad50769e9b2a775f4ef6e765e0f51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2588c8dc53164acb2cec56411d91b2686147df5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3631492191c257e535ea753f84db0f0f91375fd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecc23af700b37244f940f450594439cad6c31a52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed4e174e82957b8ebf35b0c3059ba17e6ed71a89" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee3b8a05ef626b43c7a2c3e79b11af4bfe6e071f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff0eaffef5f07aaf5d793dd15c0fcc2a2899757e" beforeDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="remove redirect-uri">
+      <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3d00f4fcd882bd69b0ee30d270b58a37a69d951" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,13 +322,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00059" summary="add spring.cloud.stream in review-service &amp; composite service">
-      <created>1664284620653</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1664284620653</updated>
     </task>
     <task id="LOCAL-00060" summary="add message processor config in review-service">
       <created>1664284742634</created>
@@ -699,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665144526953</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="remove redirect-uri">
+      <created>1665153934675</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1665153934675</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -716,7 +683,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="configure gateway pom.xml" />
     <MESSAGE value="add gateway service to docker-compose.yml" />
     <MESSAGE value="add load-balanced webclient-builder to gateway" />
     <MESSAGE value="add gateway application properties" />
@@ -741,7 +707,8 @@
     <MESSAGE value="register gateway as eureka client by authentication" />
     <MESSAGE value="start apps successfully" />
     <MESSAGE value="remove dependency exclusion and actuator version" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove dependency exclusion and actuator version" />
+    <MESSAGE value="remove redirect-uri" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove redirect-uri" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
