@@ -153,7 +153,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/AuthenticationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/OAuth2ClientConfigs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/OAuth2Configs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/OAuth2Configs1.java">
           <value>
             <set />
           </value>
@@ -169,6 +189,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/TestController.java">
           <value>
             <set />
           </value>
@@ -399,6 +424,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/util/src/main/java/com/example/util/http/HttpErrorInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-auth-server-client-login/oauth2-client/src/main/java/example/OAuth2LoginController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-auth-server-client-login/oauth2-client/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-auth-server-client-login/oauth2-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-auth-server-client-login/oauth2-server/src/main/java/example/OAuth2AuthorizationServerSecurityConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-auth-server-client-login/pom.xml">
           <value>
             <set />
           </value>

@@ -75,7 +75,7 @@ public class AuthorizationServerConfig {
         RequestMatcher endpointsMatcher = authorizationServerConfigurer
                 .getEndpointsMatcher();
 
-        http
+        http.formLogin().disable()
                 .requestMatcher(endpointsMatcher)
                 .authorizeRequests(authorizeRequests ->
                         authorizeRequests.anyRequest().authenticated()
@@ -94,6 +94,20 @@ public class AuthorizationServerConfig {
     public RegisteredClientRepository registeredClientRepository() {
 
         LOG.info("register OAUth client allowing all grant flows...");
+
+        RegisteredClient loginClient = RegisteredClient.withId(UUID.randomUUID().toString())
+                .clientId("login-client")
+                .clientSecret("{noop}openid-connect")
+                .clientAuthenticationMethod(ClientAuthenticationMethod.CLIENT_SECRET_BASIC)
+                .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
+                .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
+                .redirectUri("http://127.0.0.1:8080/login/oauth2/code/login-client")
+                .redirectUri("http://127.0.0.1:8080/authorized")
+                .scope(OidcScopes.OPENID)
+                .scope(OidcScopes.PROFILE)
+                .clientSettings(ClientSettings.builder().requireAuthorizationConsent(true).build())
+                .build();
+
         RegisteredClient writerClient = RegisteredClient.withId(UUID.randomUUID().toString())
                 .clientId("writer")
                 .clientSecret("secret1")
@@ -101,8 +115,7 @@ public class AuthorizationServerConfig {
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
                 .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)
-                .redirectUri("https://my.redirect.uri")
-                .redirectUri("https://localhost:8443/webjars/swagger-ui/oauth2-redirect.html")
+                .redirectUri("http://localhost:8443/login/oauth2/code/login-client")
                 .scope(OidcScopes.OPENID)
                 .scope("product:read")
                 .scope("product:write")
@@ -117,14 +130,14 @@ public class AuthorizationServerConfig {
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
                 .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)
-                .redirectUri("https://my.redirect.uri")
-                .redirectUri("https://localhost:8443/webjars/swagger-ui/oauth2-redirect.html")
+                .redirectUri("http://localhost:8443/login/oauth2/code/login-client")
                 .scope(OidcScopes.OPENID)
                 .scope("product:read")
                 .clientSettings(ClientSettings.builder().requireAuthorizationConsent(true).build())
                 .tokenSettings(tokenSettings())
                 .build();
-        return new InMemoryRegisteredClientRepository(writerClient, readerClient);
+
+        return new InMemoryRegisteredClientRepository(loginClient, writerClient, readerClient);
     }
 
     private TokenSettings tokenSettings() {
@@ -149,7 +162,9 @@ public class AuthorizationServerConfig {
 
     @Bean
     public ProviderSettings providerSettings() {
-        return ProviderSettings.builder().build();
+        return ProviderSettings.builder()
+                .issuer("http://auth-server:9999")
+                .build();
     }
 
     @Bean

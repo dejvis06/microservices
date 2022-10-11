@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add consent to auth-server">
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="convert to lambda expression">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14453125" />
     <property name="project.structure.side.proportion" value="0.15494794" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
@@ -66,7 +71,20 @@
       <recent name="com.example.api.core.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.product-composite-service">
+  <component name="RunManager" selected="Maven.gateway">
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.core.product.ProductServiceApplication" />
       <module name="product-service" />
@@ -289,6 +307,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.ProductServiceApplication" />
+      <item itemvalue="Application.GatewayApplication" />
       <item itemvalue="JUnit.ReviewServiceApplicationTests.contextLoads" />
       <item itemvalue="JUnit.RecommendationServiceApplicationTests.contextLoads" />
       <item itemvalue="Maven.product-composite-service" />
@@ -301,6 +320,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="JUnit.RecommendationServiceApplicationTests.contextLoads" />
         <item itemvalue="JUnit.ReviewServiceApplicationTests.contextLoads" />
         <item itemvalue="Application.ProductServiceApplication" />
@@ -315,13 +335,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00063" summary="add service discovery module">
-      <created>1664531336756</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1664531336757</updated>
     </task>
     <task id="LOCAL-00064" summary="set up discovery service">
       <created>1664531491511</created>
@@ -659,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665245890572</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="convert to lambda expression">
+      <created>1665309366267</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1665309366267</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -676,7 +696,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix gateway routing predicate path" />
     <MESSAGE value="add authorization server" />
     <MESSAGE value="change pom parent tag of authorization-server" />
     <MESSAGE value="remove slf4j dependency" />
@@ -701,7 +720,8 @@
     <MESSAGE value="remove app.type = reactive from gateway &amp; remove spring-web dependency" />
     <MESSAGE value="add redirect uri to auth-server" />
     <MESSAGE value="add consent to auth-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add consent to auth-server" />
+    <MESSAGE value="convert to lambda expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert to lambda expression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
