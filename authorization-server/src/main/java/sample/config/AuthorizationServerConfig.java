@@ -75,7 +75,7 @@ public class AuthorizationServerConfig {
         RequestMatcher endpointsMatcher = authorizationServerConfigurer
                 .getEndpointsMatcher();
 
-        http.formLogin().disable()
+        http
                 .requestMatcher(endpointsMatcher)
                 .authorizeRequests(authorizeRequests ->
                         authorizeRequests.anyRequest().authenticated()

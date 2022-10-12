@@ -258,5 +258,7 @@ Zauthorization-server/src/main/java/sample/CustomConsentAuthorizationServerAppli
 Kauthorization-server/src/main/java/sample/config/DefaultSecurityConfig.java,a/2/a235b0e6623efe05a2299a42cabffabe0e766573
 q
 Agateway/src/main/java/com/example/gateway/GatewayApplication.java,1/4/1437468eeed6b38c55f2e1d59d17012de870defd
+m
+=gateway/src/main/java/com/example/gateway/SecurityConfig.java,4/4/44d606480d20fdc36a8e17cfac36bf5de7f570a6
 ‰
 Yproduct-composite-service/src/main/java/com/example/composite/product/SecurityConfig.java,5/a/5ae17b7b84418f856b710b676d5c972e88925d71
