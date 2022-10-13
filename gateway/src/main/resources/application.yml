@@ -2,12 +2,12 @@ server.port: 8443
 
 spring.application.name: gateway
 
-
 app:
   eureka-server: localhost
   eureka-username: u
   eureka-password: p
   auth-server: localhost
+  config-server: localhost
 
 eureka:
   client:
@@ -75,6 +75,12 @@ spring.cloud.gateway.routes:
     predicates:
       - Path=/eureka/**
 
+  - id: config-server
+    uri: http://${app.config-server}:8888
+    predicates:
+      - Path=/config/**
+    filters:
+      - RewritePath=/config/(?<segment>.*), /$\{segment}
 
 server.ssl:
   key-store-type: PKCS12
