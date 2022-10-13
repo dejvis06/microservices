@@ -254,8 +254,6 @@ oproduct-composite-service/src/main/java/com/example/composite/product/services/
 Zauthorization-server/src/main/java/sample/CustomConsentAuthorizationServerApplication.java,3/1/31c0db5bbbd13cd89dca92381ffb72588a652832
 q
 Agateway/src/main/java/com/example/gateway/GatewayApplication.java,1/4/1437468eeed6b38c55f2e1d59d17012de870defd
-m
-=gateway/src/main/java/com/example/gateway/SecurityConfig.java,4/4/44d606480d20fdc36a8e17cfac36bf5de7f570a6
 ‰
 Yproduct-composite-service/src/main/java/com/example/composite/product/SecurityConfig.java,5/a/5ae17b7b84418f856b710b676d5c972e88925d71
 ?

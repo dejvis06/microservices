@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="change client-secret and add swagger redirect-uri">
-      <change afterPath="$PROJECT_DIR$/config-repo/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/auth-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/eureka-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/product-composite.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/product.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/recommendation.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/review.yml" afterDir="false" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="permit requests from gateway to the config-server">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,27 +330,6 @@
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
     </task>
-    <task id="LOCAL-00069" summary="config eureka-server as root module">
-      <created>1664538223688</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1664538223688</updated>
-    </task>
-    <task id="LOCAL-00070" summary="add eureka-server configs">
-      <created>1664622655115</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1664622655115</updated>
-    </task>
-    <task id="LOCAL-00071" summary="add eureka-client configs">
-      <created>1664627144784</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1664627144784</updated>
-    </task>
     <task id="LOCAL-00072" summary="add explaining comments to configs">
       <created>1664627948553</created>
       <option name="number" value="00072" />
@@ -680,7 +652,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665654615831</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="add config repo">
+      <created>1665654669324</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1665654669324</updated>
+    </task>
+    <task id="LOCAL-00119" summary="add route rule for config-server">
+      <created>1665654867458</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1665654867458</updated>
+    </task>
+    <task id="LOCAL-00120" summary="permit requests from gateway to the config-server">
+      <created>1665654990772</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1665654990772</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -697,9 +690,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="config gateway to use ssl" />
-    <MESSAGE value="change port to an alternative https port" />
-    <MESSAGE value="change port of gateway in docker-compose.yml" />
     <MESSAGE value="change keystore format of ssl certificate to JKS" />
     <MESSAGE value="changed project sdk version due to keystore-type of ssl certificate generation" />
     <MESSAGE value="add security config for eureka server" />
@@ -722,7 +712,10 @@
     <MESSAGE value="add scopes to new client" />
     <MESSAGE value="add config server" />
     <MESSAGE value="change client-secret and add swagger redirect-uri" />
-    <option name="LAST_COMMIT_MESSAGE" value="change client-secret and add swagger redirect-uri" />
+    <MESSAGE value="add config repo" />
+    <MESSAGE value="add route rule for config-server" />
+    <MESSAGE value="permit requests from gateway to the config-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="permit requests from gateway to the config-server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
