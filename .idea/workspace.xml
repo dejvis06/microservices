@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add client to auth-server" />
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add scopes to new client">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +68,7 @@
       <recent name="com.example.api.core.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.product-composite-service">
+  <component name="RunManager" selected="Maven.review-service">
     <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.gateway.GatewayApplication" />
       <module name="gateway" />
@@ -327,13 +332,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00066" summary="add application names">
-      <created>1664537425613</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1664537425613</updated>
     </task>
     <task id="LOCAL-00067" summary="remove hardcoded host configs and add load-balanced aware webclient builder">
       <created>1664537583305</created>
@@ -671,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665566774069</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="add scopes to new client">
+      <created>1665566886474</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1665566886475</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -688,7 +693,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="remove slf4j dependency" />
     <MESSAGE value="add username and password to eureka server" />
     <MESSAGE value="create ssl certificate" />
     <MESSAGE value="config gateway to use ssl" />
@@ -713,7 +717,8 @@
     <MESSAGE value="convert to lambda expression" />
     <MESSAGE value="revert some changes" />
     <MESSAGE value="add client to auth-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add client to auth-server" />
+    <MESSAGE value="add scopes to new client" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scopes to new client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
