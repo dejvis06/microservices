@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="permit requests from gateway to the config-server">
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add env file for docker-compose">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,13 +331,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00072" summary="add explaining comments to configs">
-      <created>1664627948553</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1664627948554</updated>
     </task>
     <task id="LOCAL-00073" summary="change host and eureka-client version">
       <created>1664631534788</created>
@@ -673,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665654990772</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="add env file for docker-compose">
+      <created>1665655146545</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1665655146545</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -690,7 +692,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="change keystore format of ssl certificate to JKS" />
     <MESSAGE value="changed project sdk version due to keystore-type of ssl certificate generation" />
     <MESSAGE value="add security config for eureka server" />
     <MESSAGE value="add eureka clients auth credentials" />
@@ -715,7 +716,8 @@
     <MESSAGE value="add config repo" />
     <MESSAGE value="add route rule for config-server" />
     <MESSAGE value="permit requests from gateway to the config-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="permit requests from gateway to the config-server" />
+    <MESSAGE value="add env file for docker-compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="add env file for docker-compose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
