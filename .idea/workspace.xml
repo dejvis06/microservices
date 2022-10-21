@@ -4,199 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="add env file for docker-compose">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/composite/product/ProductAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/composite/product/ProductCompositeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/composite/product/RecommendationSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/composite/product/ReviewSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/composite/product/ServiceAddresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/core/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/core/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/core/recommendation/Recommendation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/core/recommendation/RecommendationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/core/review/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/core/review/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/event/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/exceptions/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/exceptions/EventProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/exceptions/InvalidInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/se/magnus/api/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-kafka.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-partitions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/se/magnus/springcloud/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/se/magnus/springcloud/eurekaserver/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/se/magnus/springcloud/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/se/magnus/springcloud/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/se/magnus/springcloud/gateway/HealthCheckConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/se/magnus/springcloud/gateway/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/se/magnus/springcloud/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/se/magnus/microservices/composite/product/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/se/magnus/microservices/composite/product/ProductCompositeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/se/magnus/microservices/composite/product/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/se/magnus/microservices/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/se/magnus/microservices/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/test/java/se/magnus/microservices/composite/product/IsSameEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/test/java/se/magnus/microservices/composite/product/IsSameEventTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/test/java/se/magnus/microservices/composite/product/MessagingTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/test/java/se/magnus/microservices/composite/product/ProductCompositeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/test/java/se/magnus/microservices/composite/product/TestSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-composite-service/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/se/magnus/microservices/core/product/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/se/magnus/microservices/core/product/persistence/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/se/magnus/microservices/core/product/persistence/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/se/magnus/microservices/core/product/services/MessageProcessorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/se/magnus/microservices/core/product/services/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/se/magnus/microservices/core/product/services/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/se/magnus/microservices/core/product/MapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/se/magnus/microservices/core/product/MongoDbTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/se/magnus/microservices/core/product/PersistenceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/se/magnus/microservices/core/product/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/se/magnus/microservices/core/recommendation/RecommendationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/se/magnus/microservices/core/recommendation/persistence/RecommendationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/se/magnus/microservices/core/recommendation/persistence/RecommendationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/se/magnus/microservices/core/recommendation/services/MessageProcessorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/se/magnus/microservices/core/recommendation/services/RecommendationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/se/magnus/microservices/core/recommendation/services/RecommendationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/test/java/se/magnus/microservices/core/recommendation/MapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/test/java/se/magnus/microservices/core/recommendation/MongoDbTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/test/java/se/magnus/microservices/core/recommendation/PersistenceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/test/java/se/magnus/microservices/core/recommendation/RecommendationServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/test/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/se/magnus/microservices/core/review/ReviewServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/se/magnus/microservices/core/review/persistence/ReviewEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/se/magnus/microservices/core/review/persistence/ReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/se/magnus/microservices/core/review/services/MessageProcessorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/se/magnus/microservices/core/review/services/ReviewMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/se/magnus/microservices/core/review/services/ReviewServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/test/java/se/magnus/microservices/core/review/MapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/test/java/se/magnus/microservices/core/review/MySqlTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/test/java/se/magnus/microservices/core/review/PersistenceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/test/java/se/magnus/microservices/core/review/ReviewServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-service/src/test/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/se/magnus/util/http/GlobalControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/se/magnus/util/http/HttpErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/se/magnus/util/http/ServiceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/test/java/se/magnus/util/reactor/ReactorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_reactive_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/024a96d3ece3393d5ab09596e9f4f210fd219046" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02d343b9b5c40c9dc7299e4cf12f13714aa26b77" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/084bd632ab329c141a90c89c566cfddc1cfd22c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29d7ff06c2ef4ab9ea0cc19ffe8720c03141b912" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/3753dd4e22974a6308070e54fee9a36a92530b6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b21e27bebe6a6d371a3e514ba7cb64a09862fe8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51870f07b4e63c9256ecf7e6f92445305e18613f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5293a22b6a67e0f039e30068fa4dc9cf1342abf1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5351f3da3adde668cc0fe612398279ad4758ccc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5af894124e208e0bc7a99a4e20a1c76481126c83" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fbe0020a09bbbf977802456f8263b7cc4dca685" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c86fe12e1e8bbf533efc80890de45f7d9293296" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74a68c8173eaa4e121c7c4dd11baec456d5046b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7746438ec20718265a9708e83196ce5e078aa5c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/798107a25e13f7cd362ff4017b9b639db3f4a9f0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a8e297d4ebcfec47a13eefd9527ef7c59a69257" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/812a8020450e911d5ca7db66ac76ad8dbf3305f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a366680aa0bd4f8a8ebbc2adf36c3da87bd5622" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d640e9f7673a5f185908b583182969d73b39db6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8ddc74c8d678657ffd439cd2e0b6ab83756b44bf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9820e255363a8ed216da64c6f0c38a465a2d02e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99700392b9154b1c3115cbc2b4892c5d04a78030" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1486845d164ec6a8f13a58aa8cb91cdd97c5d37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a17948be64982080953ed412ac73d2d42d2e8cf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5ae2a91764222a0271171e25efa9e4f8fa75a83" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9bc53c9ae8caf12212c4e150210d607c6aadb97" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb23b44a3a7c8837b4068362b462df5ee5281266" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c639ec3fea8c42544a154198fbc790d13cac6eae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee5e32588e5a0672f27f4f7062851bd391c23ef0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5359bad1d418868e9564c824d5050e8ccb7b9bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc6a604cbad9c49b4ba1614c51dce3cc474e53be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductAggregate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ProductCompositeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/RecommendationSummary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ReviewSummary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/composite/product/ServiceAddresses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/product/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/product/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/recommendation/Recommendation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/recommendation/RecommendationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/core/review/ReviewService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/event/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/BadRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/EventProcessingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/InvalidInputException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/exceptions/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/keystore/edge.p12" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/keystore/edge.p12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/test/java/com/example/GatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/OpenApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/ProductCompositeServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeIntegration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/example/composite/product/services/ProductCompositeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/test/java/com/example/composite/product/ProductCompositeServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/ProductServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/persistence/ProductEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/persistence/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/MessageProcessorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/api/core/product/services/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/example/api/core/product/ProductServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/RecommendationServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/persistence/RecommendationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/MessageProcessorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/example/recommendation/services/RecommendationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/test/java/com/example/recommendation/RecommendationServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/ReviewServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/persistence/ReviewEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/persistence/ReviewRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/MessageProcessorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/example/review/services/ReviewServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-service/src/test/java/com/example/review/ReviewServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/GlobalControllerExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/HttpErrorInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/example/util/http/ServiceUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/resources/application.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="ead6eacc-3ca6-4663-b4e4-24ca7f7f3f19" name="Default Changelist" comment="refactor modules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -519,13 +327,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662730107260</updated>
-    </task>
-    <task id="LOCAL-00073" summary="change host and eureka-client version">
-      <created>1664631534788</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1664631534788</updated>
     </task>
     <task id="LOCAL-00074" summary="move spring cloud dependencies management to the root pom">
       <created>1664634448835</created>
@@ -863,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665655146545</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="refactor modules">
+      <created>1666344221166</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1666344221167</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -880,7 +688,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed project sdk version due to keystore-type of ssl certificate generation" />
     <MESSAGE value="add security config for eureka server" />
     <MESSAGE value="add eureka clients auth credentials" />
     <MESSAGE value="add security configs for gateway and product-composite-service" />
@@ -905,7 +712,8 @@
     <MESSAGE value="add route rule for config-server" />
     <MESSAGE value="permit requests from gateway to the config-server" />
     <MESSAGE value="add env file for docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="add env file for docker-compose" />
+    <MESSAGE value="refactor modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
