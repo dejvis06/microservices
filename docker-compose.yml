@@ -2,39 +2,56 @@ version: '2.1'
 
 services:
   product:
-    build: product-service
+    build: microservices/product-service
     mem_limit: 512m
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+      - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+      - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
     depends_on:
       mongodb:
+        condition: service_healthy
+      rabbitmq:
         condition: service_healthy
 
   recommendation:
-    build: recommendation-service
+    build: microservices/recommendation-service
     mem_limit: 512m
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+      - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+      - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
     depends_on:
       mongodb:
         condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
 
   review:
-    build: review-service
+    build: microservices/review-service
     mem_limit: 512m
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+      - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+      - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
     depends_on:
       mysql:
         condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
 
   product-composite:
-    build: product-composite-service
+    build: microservices/product-composite-service
     mem_limit: 512m
-    ports:
-      - "8080:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+      - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+      - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      auth-server:
+        condition: service_healthy
 
   mongodb:
     image: mongo:4.4.2
@@ -49,12 +66,12 @@ services:
       retries: 60
 
   mysql:
-    image: mysql:5.7.39
+    image: mysql:5.7.32
     mem_limit: 512m
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=rootuser
+      - MYSQL_ROOT_PASSWORD=rootpwd
       - MYSQL_DATABASE=review-db
       - MYSQL_USER=user
       - MYSQL_PASSWORD=pwd
@@ -64,22 +81,54 @@ services:
       timeout: 2s
       retries: 60
 
-  eureka:
-    build: eureka-server
+  rabbitmq:
+    image: rabbitmq:3.8.11-management
     mem_limit: 512m
     ports:
-      - "8761:8761"
+      - 5672:5672
+      - 15672:15672
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 5s
+      timeout: 2s
+      retries: 60
+
+  eureka:
+    build: spring-cloud/eureka-server
+    mem_limit: 512m
+    environment:
+    - SPRING_PROFILES_ACTIVE=docker
+    - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+    - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
 
   gateway:
+    build: spring-cloud/gateway
+    mem_limit: 512m
     environment:
       - SPRING_PROFILES_ACTIVE=docker
-    build: gateway
-    mem_limit: 512m
+      - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+      - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
     ports:
       - "8443:8443"
+    depends_on:
+      auth-server:
+        condition: service_healthy
+
+  auth-server:
+    build: spring-cloud/authorization-server
+    mem_limit: 512m
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - CONFIG_SERVER_USR=${CONFIG_SERVER_USR}
+      - CONFIG_SERVER_PWD=${CONFIG_SERVER_PWD}
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:9999/actuator/health"]
+      interval: 5s
+      timeout: 2s
+      retries: 60
 
   config-server:
-    build: config-server
+    build: spring-cloud/config-server
     mem_limit: 512m
     environment:
       - SPRING_PROFILES_ACTIVE=docker,native

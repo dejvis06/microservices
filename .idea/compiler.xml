@@ -10,8 +10,8 @@
         <module name="config-server" />
         <module name="util" />
         <module name="authorization-server" />
-        <module name="review-service" />
         <module name="product-composite-service" />
+        <module name="review-service" />
         <module name="product-service" />
         <module name="api" />
         <module name="eureka-server" />

@@ -7,7 +7,7 @@
 		<artifactId>microservices</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.example.util</groupId>
+	<groupId>se.magnus.util</groupId>
 	<artifactId>util</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>util</name>
@@ -18,7 +18,7 @@
 	<dependencies>
 		<!-- modules -->
 		<dependency>
-			<groupId>com.example.api</groupId>
+			<groupId>se.magnus.api</groupId>
 			<artifactId>api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
